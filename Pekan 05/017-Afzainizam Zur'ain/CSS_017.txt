@@ -1,1 +1,165 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>Tugas WEB 17-03-2026</title>
+    <script src="https://kit.fontawesome.com/673e2e216d.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    body {
+        background-color: grey;
+        /*(ini adalah css comment) ini adalah style untuk body html agar berwarna abu abu*/
+
+    }
+
+    h1 {
+        text-align: center
+    }
+
+    h2 {
+        font-style: italic text-align: center;
+        /*(ini merupakan css errors), style tidak akan terpanggil jika ada kesalahan dalam penulisan kode (melupakan titik koma di akhir)*/
+    }
+
+    p.bg {
+        font-family: 'Courier New';
+        background-color: tomato;
+        /*(ini adalah css colors & css fonts), disini saya menambahkan warna latar belakang, hanya untuk paragraf */
+    }
+
+    div {
+        background-color: aquamarine;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
+        /*(ini adalah css background & css margins)*/
+    }
+
+    div.kedua {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        text-align: center;
+        background-color: bisque;
+        /*(ini adalah contoh css padding)*/
+
+    }
+
+    div.ketiga {
+        padding-top: 120px;
+        height: 180px;
+        width: 50%;
+        text-align: center;
+        /*(ini adalah css height/width, height untuk tinggi dan width untuk lebar)*/
+    }
+
+    p.dotted {
+        border-style: dotted;
+        text-align: center;
+        /*(ini adalah contoh css border)*/
+    }
+
+
+    div.keempat {
+        background-color: yellow;
+        width: 300px;
+        border: 15px solid rebeccapurple;
+        padding: 50px;
+        margin: 40px;
+
+    }
+
+    p {
+        outline-color: green;
+        padding: auto;
+
+    }
+
+    p.dotted2 {
+        outline-style: dotted;
+        text-align: center;
+        color: brown;
+        /*(ini adalah contoh css outline & css text color)*/
+    }
+
+    a {
+        color: hotpink;
+        font-weight: bold;
+        background-color: yellow;
+        /*(Ini adalah css Link)*/
+    }
+
+    ul.a {
+        list-style-type: circle;
+        /*(Ini adalah css Lists)*/
+
+    }
+
+    table {
+        text-align: center;
+        border: 1px solid black;
+        width: 400px;
+        height: 100px;
+        /*(Ini adalah css Tables)*/
+    }
+
+    th {
+        text-align: center;
+        background-color: green;
+        /*(ini adalah css Tables)*/
+    }
+
+    td {
+        text-align: center;
+        background-color: white;
+        /*(Ini adalah css Tables)*/
+    }
+</style>
+
+<body>
+    <i class="fa-solid fa-ban-smoking" style="font-size: 120px;"></i>
+    <h1>Ini Heading 1</h1>
+    <h2>Ini adalah Heading 2</h2>
+    <div> Ini adalah contoh css background
+        <p class="bg">Ini adalah paragraf</p>
+        background color di dalam background color
+    </div>
+    <p class="dotted">ini adalah contoh css border dotted</p>
+    <p class="dotted2"> Ini adalah contoh css outline</p>
+    <div class="kedua">INI ADALAH CONTOH CSS PADDING</div>
+    <div class="ketiga">Ini adalah contoh css height dan width</div>
+    <div class="keempat"> Ini adalah contoh css box model</div>
+    <a href="https://fontawesome.com/"> Ini adalah link untuk mencari icon untuk css/html</a>
+    <ul class="a">
+        <li>Keysha</li>
+        <li>Safa</li>
+        <li>Kinara</li>
+    </ul>
+
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Nim</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Keysha</td>
+            <td>240631100017</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Safa</td>
+            <td>240631100017</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Kinara</td>
+            <td>240631100017</td>
+        </tr>
+    </table>
+</body>
+
+</html>
