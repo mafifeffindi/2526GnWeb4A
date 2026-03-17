@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Modern CSS Showcase</title>
+<style>
+
+/* ===== GLOBAL STYLE ===== */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #333;
+}
+
+/* ===== HEADER ===== */
+header {
+  text-align: center;
+  color: white;
+  padding: 30px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header p {
+  opacity: 0.9;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+/* ===== CARD (BOX MODEL) ===== */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+/* HOVER EFFECT */
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* ===== TEXT ===== */
+.highlight {
+  color: #764ba2;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* ===== BORDER ===== */
+.border-box {
+  border-left: 6px solid #667eea;
+}
+
+/* ===== OUTLINE ===== */
+.outline-box {
+  outline: 3px dashed #764ba2;
+}
+
+/* ===== SIZE ===== */
+.box-size {
+  width: 220px;
+  height: 120px;
+  background: #667eea;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+/* ===== BUTTON / LINK ===== */
+.btn {
+  display: inline-block;
+  background: #667eea;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #764ba2;
+}
+
+/* ===== LIST ===== */
+ul {
+  list-style: square;
+}
+
+/* ===== TABLE ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th {
+  background: #667eea;
+  color: white;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background: #f5f5f5;
+}
+
+/* ===== ICON ===== */
+.icon {
+  font-size: 28px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>CSS Modern Showcase</h1>
+  <p>Demonstrasi lengkap penggunaan CSS dalam satu halaman</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h3>Typography & Text</h3>
+    <p>CSS digunakan untuk mengatur tampilan teks agar lebih menarik dan mudah dibaca.</p>
+    <p class="highlight">Ini contoh teks dengan highlight menggunakan selector class</p>
+  </div>
+
+  <div class="card border-box">
+    <h3>Border & Box Model</h3>
+    <p>Box model terdiri dari margin, border, padding, dan content yang membentuk layout elemen.</p>
+  </div>
+
+  <div class="card outline-box">
+    <h3>Outline</h3>
+    <p>Outline digunakan untuk memberikan garis tambahan di luar border.</p>
+  </div>
+
+  <div class="card">
+    <h3>Height & Width</h3>
+    <div class="box-size">220 x 120 px</div>
+  </div>
+
+  <div class="card">
+    <h3>Interactive Link</h3>
+    <a href="#" class="btn">Klik Disini</a>
+  </div>
+
+  <div class="card">
+    <h3>List Styling</h3>
+    <ul>
+      <li>Desain UI menarik</li>
+      <li>Responsif</li>
+      <li>User Friendly</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Table Data Mahasiswa</h3>
+    <table>
+      <tr>
+        <th>Nama</th>
+        <th>Umur</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>Silfi</td>
+        <td>19</td>
+        <td>Mahasiswa</td>
+      </tr>
+      <tr>
+        <td>Andi</td>
+        <td>20</td>
+        <td>Mahasiswa</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>Icons</h3>
+    <p class="icon">💻 🎨 🚀 🌐</p>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 - Tugas CSS Pekan 05 | Silfi 19
+</footer>
+
+</body>
+</html>
