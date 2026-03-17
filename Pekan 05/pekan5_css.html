@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pemrograman Web - Pekan 05</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        /* 1. Komentar CSS: Bagian ini mengatur tampilan dasar halaman */
+
+        /* 2. Kesalahan CSS: Pastikan properti ditulis dengan benar (misal: 'color', bukan 'collor') */
+
+        body {
+            /* Warna CSS & Latar Belakang CSS */
+            background-color: #f0f2f5;
+            color: #2c3e50;
+            /* Font CSS */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            /* Teks CSS */
+            text-align: center;
+            text-decoration: underline;
+            color: #2980b9;
+        }
+
+        /* 3. Model Kotak CSS (Box Model) */
+        .container-box {
+            /* Tinggi/Lebar CSS */
+            width: 90%;
+            max-width: 800px;
+            min-height: 200px;
+            /* Margin CSS & Padding CSS */
+            margin: 30px auto;
+            padding: 25px;
+            /* Batas CSS (Border) */
+            border: 3px solid #34495e;
+            /* Latar Belakang CSS */
+            background-color: #ffffff;
+        }
+
+        /* 4. Garis Besar CSS (Outline) */
+        .outline-demo {
+            padding: 10px;
+            margin-top: 15px;
+            border: 2px solid #e67e22;
+            outline: 5px solid #f1c40f; /* Outline berada di luar border */
+            outline-offset: 4px;
+        }
+
+        /* 5. Tautan CSS (Links) */
+        a.custom-link {
+            color: #e74c3c;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+            a.custom-link:hover {
+                color: #c0392b;
+                text-decoration: underline;
+            }
+
+        /* 6. Daftar CSS (Lists) */
+        ul.custom-list {
+            list-style-type: circle;
+            background: #ecf0f1;
+            padding: 20px 40px;
+            border-radius: 8px;
+        }
+
+        /* 7. Tabel CSS */
+        .styled-table {
+            width: 100%;
+            border-collapse: collapse; /* Menggabungkan garis tabel */
+            margin-top: 20px;
+        }
+
+            .styled-table th, .styled-table td {
+                border: 1px solid #bdc3c7; /* Batas CSS pada sel */
+                padding: 10px;
+                text-align: center;
+            }
+
+            .styled-table th {
+                background-color: #2980b9;
+                color: white;
+            }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Implementasi CSS Pekan 05</h1>
+    </header>
+
+    <div class="container-box">
+        <section>
+            <h2>1. Teks dan Font</h2>
+            <p>Paragraf ini menggunakan pengaturan <b>Font CSS</b> dan properti <b>Teks CSS</b> untuk perataan dan warna.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>2. Garis Besar & Ikon CSS</h2>
+            <div class="outline-demo">
+                Kotak ini memiliki <b>Outline</b> kuning di luar border oranye.
+            </div>
+            <p style="margin-top: 20px;">
+                <i class="fas fa-laptop-code"></i> Ini adalah contoh <b>Ikon CSS</b>.
+            </p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>3. Tautan & Daftar CSS</h2>
+            <p>Kunjungi: <a href="#" class="custom-link">Tautan Contoh Disini</a></p>
+
+            <ul class="custom-list">
+                <li>Item Daftar 1 (Model Kotak)</li>
+                <li>Item Daftar 2 (Margin & Padding)</li>
+                <li>Item Daftar 3 (Batas/Border)</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>4. Tabel CSS</h2>
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Komponen</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Background & Color</td>
+                        <td>Selesai</td>
+                    </tr>
+                    <tr>
+                        <td>Box Model</td>
+                        <td>Selesai</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+</body>
+</html>
