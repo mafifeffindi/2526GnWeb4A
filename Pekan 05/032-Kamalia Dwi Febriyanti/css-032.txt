@@ -1,1 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas CSS Pekan 05 - Kamalia Dwi Febriyanti</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* CSS Comments: File ini mencakup seluruh cakupan materi Pekan 05 */
 
+        /* CSS Box Model, Margins, Padding, Height/Width */
+        * {
+            box-sizing: border-box; /* CSS Box Model */
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif; /* CSS Fonts */
+        }
+
+        /* CSS Colors & Backgrounds */
+        body {
+            background-color: #f0f4f8;
+            color: #2d3436;
+            line-height: 1.8;
+            padding: 20px;
+        }
+
+        .container {
+            width: 85%; /* CSS Width */
+            max-width: 850px;
+            margin: 50px auto; /* CSS Margins */
+            background: #ffffff;
+            padding: 40px; /* CSS Padding */
+            /* CSS Borders & Outline */
+            border: 3px solid #0984e3; 
+            outline: 6px solid #dfe6e9;
+            border-radius: 12px;
+        }
+
+        /* CSS Text & Links */
+        h1 {
+            color: #0984e3;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 25px;
+        }
+
+        a {
+            color: #6c5ce7;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: #d63031; /* CSS Links Hover */
+            text-decoration: underline;
+        }
+
+        /* CSS Lists */
+        ul {
+            list-style-type: disc;
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+
+        /* CSS Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 25px;
+        }
+
+        table, th, td {
+            border: 1px solid #b2bec3;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #0984e3;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        /* CSS Icons Styling */
+        .icon-header {
+            font-size: 20px;
+            margin-right: 8px;
+            color: #0984e3;
+        }
+
+        /* CSS Errors (Contoh selector spesifik) */
+        .error-log {
+            color: #d63031;
+            font-size: 0.9em;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Tugas Pemrograman Web</h1>
+
+        <div style="background: #f9f9f9; padding: 15px; border-left: 5px solid #0984e3;">
+            <p><strong>Nama Lengkap:</strong> Kamalia Dwi Febriyanti</p>
+            <p><strong>NIM Terakhir:</strong> 032</p>
+        </div>
+        
+        <br>
+
+        <h3><i class="fas fa-list-check icon-header"></i>Ruang Lingkup Materi (CSS Lists):</h3>
+        <ul>
+            <li>CSS Box Model (Padding, Margin, Border)</li>
+            <li>CSS Text, Fonts, & Icons</li>
+            <li>CSS Colors & Backgrounds</li>
+            <li>CSS Tables & Links</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Komponen CSS</th>
+                    <th>Status Implementasi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CSS Borders & Outline</td>
+                    <td>Berhasil Diterapkan</td>
+                </tr>
+                <tr>
+                    <td>CSS Height / Width</td>
+                    <td>Sesuai Layout</td>
+                </tr>
+                <tr>
+                    <td>CSS Tables</td>
+                    <td>Responsive & Styled</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p style="margin-top: 30px; text-align: center;">
+            Lihat dokumentasi lengkap di <a href="https://www.w3schools.com/css/" target="_blank">W3Schools CSS Tutorial</a>
+        </p>
+    </div>
+
+</body>
+</html>
