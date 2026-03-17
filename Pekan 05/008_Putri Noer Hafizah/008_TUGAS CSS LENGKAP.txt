@@ -17,9 +17,9 @@ h1 {
   text-align: center;
 }
 
-.font-section h1,
-.icon-section h1,
-.link-section h1 {
+font-section h1,
+icon-section h1,
+link-section h1 {
   text-align: left;
 }
 
@@ -28,7 +28,7 @@ p {
   color: rgb(0, 0, 0);
 }
 
-.section {
+section {
   margin-bottom: 50px;
 }
 
@@ -36,44 +36,44 @@ p.bad {
   color: red;
 }
 
-.bg-section h1 {
+bg-section h1 {
   background-color: green;
 }
 
-.bg-section div {
+bg-section div {
   background-color: lightblue;
 }
 
-.bg-section p {
+bg-section p {
   background-color: yellow;
 }
 
-.border-section p {
+border-section p {
   border-top-style: dotted;
   border-right-style: solid;
   border-bottom-style: dotted;
   border-left-style: solid;
 }
 
-.margin-section div {
+margin-section div {
   border: 1px solid black;
   margin: 100px 150px 100px 80px;
   background-color: lightblue;
 }
 
-.padding-section div {
+padding-section div {
   border: 1px solid black;
   background-color: lightblue;
   padding: 50px 30px 50px 80px;
 }
 
-.size-section div {
+size-section div {
   height: 200px;
   width: 50%;
   background-color: pink;
 }
 
-.boxmodel-section div {
+boxmodel-section div {
   width: 320px;
   height: 50px;
   padding: 10px;
@@ -81,15 +81,15 @@ p.bad {
   margin: 0;
 }
 
-.outline-section p {
+outline-section p {
   padding: 5px;
 }
 
-.outline-section .ex4 {
+outline-section .ex4 {
   outline: thick ridge pink;
 }
 
-.shadow-section h1 {
+shadow-section h1 {
   text-shadow: 2px 2px red;
 }
 
