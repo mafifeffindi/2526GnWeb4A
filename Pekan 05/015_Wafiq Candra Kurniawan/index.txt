@@ -1,1 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Tugas CSS Pekan 05</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Nunito:wght@400;700&family=Pacifico&family=Space+Mono:wght@700&display=swap">
 
+    <style>
+        /* CSS Comments */
+
+        /* CSS Errors */
+        .error-demo {
+            background-color: yellow;
+            background-colr: red;
+            color: black;
+            font-family: 'Space Mono', monospace;
+            padding: 10px;
+        }
+
+        /* CSS Backgrounds */
+        body {
+            background-color: #1a0b2e;
+            color: #ffffff;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .logo-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .logo-container img {
+            width: 120px;
+        }
+
+        /* CSS Text */
+        .section-title {
+            text-align: center;
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 28px;
+            color: #ffde59;
+            margin-bottom: 5px;
+        }
+
+        .text-demo {
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: underline;
+            font-family: 'Montserrat', sans-serif;
+            color: #a29bfe;
+            font-size: 24px;
+        }
+
+        /* CSS Colors */
+        /* CSS Borders */
+        .colors-bg-demo {
+            color: #00f2fe;
+            background-color: #2a1b47;
+            border: 3px solid #00ea8d;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        /* CSS Margins */
+        /* CSS Padding */
+        /* CSS Height / Width */
+        /* CSS Box Model */
+        .margin-padding-demo {
+            width: 300px;
+            height: 100px;
+            border: 3px solid #ff0844;
+            margin: 30px auto;
+            padding: 20px;
+            font-family: 'Montserrat', sans-serif;
+            color: #ffde59;
+            background-color: #1a0b2e;
+        }
+
+        /* CSS Outline */
+        .outline-demo {
+            border: 3px solid #ffffff;
+            outline: 5px dashed #00b09b;
+            padding: 10px;
+            font-family: 'Space Mono', monospace;
+            color: #ff9a9e;
+            background-color: #1a0b2e;
+        }
+
+        /* CSS Fonts */
+        .fonts-demo {
+            font-family: 'Pacifico', cursive;
+            font-size: 32px;
+            color: #ffde59;
+            text-align: center;
+        }
+
+        /* CSS Links */
+        a.links-demo:link { color: #00ea8d; text-decoration: none; font-weight: bold; }
+        a.links-demo:visited { color: #a29bfe; }
+        a.links-demo:hover { color: #ffde59; text-decoration: underline; }
+        a.links-demo:active { color: #ff0844; }
+
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            color: #a29bfe;
+            margin-left: 10%;
+        }
+
+        /* CSS Lists */
+        ul.lists-demo {
+            list-style-type: square;
+            font-family: 'Pacifico', cursive;
+            color: #ff9a9e;
+            font-size: 20px;
+            margin-left: 10%;
+        }
+
+        /* CSS Tables */
+        table.tables-demo {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            font-family: 'Nunito', sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        table.tables-demo, th, td {
+            border: 1px solid #2a1b47;
+        }
+        
+        th {
+            background-color: #ff0844;
+            color: #ffffff;
+            font-family: 'Montserrat', sans-serif;
+            padding: 12px;
+            text-align: center;
+        }
+        
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f0f8ff;
+        }
+        
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="logo-container">
+        <img src="https://upload.wikimedia.org/wikipedia/id/thumb/7/7b/Logo_UTM_%28Universitas_Trunojoyo_Madura%29.png/300px-Logo_UTM_%28Universitas_Trunojoyo_Madura%29.png" alt="Logo UTM">
+    </div>
+
+    <h1 class="section-title">Tugas CSS Ruang Lingkup W3Schools</h1>
+    
+    <div class="error-demo">
+        Ini adalah contoh poin <strong style="color:red">CSS Comments & Errors</strong>.
+    </div>
+
+    <div class="colors-bg-demo">
+        Ini adalah contoh poin <strong style="color:#ffffff">CSS Colors & Backgrounds</strong>.
+    </div>
+
+    <div class="margin-padding-demo">
+        Contoh <strong style="color:#ffffff">CSS Margins, Padding, Height & Width</strong>.
+    </div>
+
+    <div class="outline-demo">
+        Ini adalah contoh poin <strong style="color:#ffffff">CSS Outline</strong>.
+    </div>
+
+    <div class="text-demo">
+        Teks dengan gaya <strong style="color:#ffffff">CSS Text</strong>.
+    </div>
+
+    <div class="fonts-demo">
+        Teks dengan gaya <strong style="color:#ffffff">CSS Fonts</strong>.
+    </div>
+
+    <p style="text-align: center; font-size: 18px;">
+        Ini adalah contoh poin <strong style="color:#ffde59">CSS Icons</strong>: <i class="fa fa-car" style="font-size:36px; color:#ffde59;"></i>
+    </p>
+
+    <p style="text-align: center; font-size: 18px;">
+        Cobalah arahkan mouse atau klik link poin <strong style="color:#ffde59">CSS Links</strong> ini: 
+        <a href="https://www.w3schools.com/css/" target="_blank" class="links-demo">Belajar CSS di W3Schools</a>
+    </p>
+
+    <h3>Poin CSS Lists</h3>
+    <ul class="lists-demo">
+        <li>Item Pertama (Bullet Kotak)</li>
+        <li>Item Kedua (Bullet Kotak)</li>
+        <li>Item Ketiga (Bullet Kotak)</li>
+    </ul>
+
+    <h3>Poin CSS Tables</h3>
+    <table class="tables-demo">
+        <tr>
+            <th>Nama Lengkap</th>
+            <th>NIM</th>
+            <th>Mata Kuliah</th>
+        </tr>
+        <tr>
+            <td>Wafiq Candra Kurniawan</td>
+            <td>015</td>
+            <td>Pemrograman Web</td>
+        </tr>
+        <tr>
+            <td>Budi Santoso</td>
+            <td>016</td>
+            <td>Data Mining</td>
+        </tr>
+    </table>
+
+</body>
+</html>
