@@ -1,0 +1,20 @@
+Folder ini merupakan folder penugasan kegiatan belajar Pekan 05.
+Pada Pertemuan ini, mahasiswa melakukan:
+a. membuat folder dengan nama "XXX-Nama lengkap" (xxx adalah 3 digit terakhir NIM)
+b. mengunggah coding CSS ruang lingkup: 
+CSS Comments
+CSS Errors
+CSS Colors
+CSS Backgrounds
+CSS Borders
+CSS Margins
+CSS Padding
+CSS Height / Width
+CSS Box Model
+CSS Outline
+CSS Text
+CSS Fonts
+CSS Icons
+CSS Links
+CSS Lists
+CSS Tables
