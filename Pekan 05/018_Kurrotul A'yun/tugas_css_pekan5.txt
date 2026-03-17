@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<style>
+body {
+  background-color: lightblue;
+  
+}
 
+h1 {
+  color: white; /*menggunakan warna putih*/
+  text-align: center;
+}
+h2 {
+  color: rgb(34, 200, 67);
+}
+p {
+  font-family: verdana;                                                                                          
+  font-size: 20px;
+  
+}
+#contoh1 {
+  text-align: center;
+  color: red;
+}
+p {
+  font-famiy: verdana;                                                                                          
+  font-size: 20px;
+}
+p.dotted {
+  border-style: dotted;}
+div {
+    background-color: powderblue;
+    border: 5px solid green;
+    width: 50%;
+    height: 200px;
+    /* Shorthand: top, right, bottom, left */
+    margin: 100px 150px 100px 80px;
+    padding: 50px 30px 50px 80px;
+  }
+p.double {outline-style: double;}
+a {
+  color: hotpink;
+  background-color: yellow;
+  font-weight: bold;
+}
+ul {
+  list-style-image: url('sqpurple.gif');
+  list-style-type: square;  
+}
+table, th, td {
+  border: 1px solid;
+</style>
+</head>
+<body>
+
+<h1>My First CSS Example</h1>
+<p>This is a paragraph.</p>
+<p id="contoh1">Paragraf ini ditulis menggunakan selector id</p>
+<p>css error</p>
+<p style="background-color:Tomato;">css background</p> 
+<p class="dotted">Ini paragraf menggunakan css border</p>
+<div>Paragraf ini menggunakan css margin, padding, height and width, box model</div>
+<p class="solid">Paragraf ini menggunakan css outline</p>
+<h2>Paragraf ini menggunakan css text</h2>
+<i class="fas fa-cloud"></i>
+<p><a href="default.asp" target="_blank">https://www.youtube.com/</a></p>
+<ul>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+</ul>
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Kurrotul</td>
+    <td>Ayun</td>
+  </tr>
+  <tr>
+    <td>Siti</td>
+    <td>Fatimah</td>
+  </tr>
+</table>
+</body>
+</html>
