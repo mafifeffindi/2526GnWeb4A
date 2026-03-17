@@ -1,1 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Belajar CSS - Versi Update</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* 1. CSS COMMENTS: Digunakan untuk dokumentasi kode */
+        /* 2. CSS ERRORS: 
+           Menggunakan selector universal '*' untuk reset guna mencegah error layout default browser. 
+        */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* 9. CSS BOX MODEL */
+        }
+        body {
+            /* 3. CSS COLORS & 4. CSS BACKGROUNDS */
+            background-color: #f0f2f5;
+            color: #1a1a1a;
+            /* 12. CSS FONTS */
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+        }
+        .container {
+            /* 8. CSS HEIGHT / WIDTH */
+            width: 95%;
+            max-width: 850px;
+            /* 6. CSS MARGINS */
+            margin: 40px auto;
+            /* 7. CSS PADDING */
+            padding: 25px;
+            background: #ffffff;
+            /* 5. CSS BORDERS */
+            border: 2px solid #3498db;
+            border-radius: 10px;
+        }
+        h1 {
+            /* 11. CSS TEXT */
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #2c3e50;
+            margin-bottom: 25px;
+        }
+        .box-demo {
+            background-color: #ecf0f1;
+            padding: 20px;
+            margin: 20px 0;
+            /* 10. CSS OUTLINE */
+            border: 5px solid #e74c3c;
+            outline: 5px solid #f1c40f;
+        }
+        /* 14. CSS LINKS */
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        a:hover {
+            color: #2c3e50;
+            text-decoration: underline;
+        }
+        /* 15. CSS LISTS */
+        ul.custom-list {
+            list-style-type: square;
+            margin-left: 25px;
+            margin-bottom: 20px;
+        }
+        /* 16. CSS TABLES */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table,
+        th,
+        td {
+            border: 1px solid #bdc3c7;
+        }
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Belajar CSS_029</h1>
+        <div class="box-demo">
+            <p><strong>Note:</strong> Mari belajar CSS bersama saya dijamin seru!!!</p>
+            <p>(Elemen ini menunjukkan <em>Border</em> merah dan <em>Outline</em> kuning)</p>
+        </div>
+        <h3><i class="fas fa-list"></i> Contoh List & Ikon (CSS Icons)</h3>
+        <ul class="custom-list">
+            <li>Elemen 1 dengan Ikon <i class="fas fa-check-circle" style="color: green;"></i></li>
+            <li>Elemen 2 dengan Ikon <i class="fas fa-star" style="color: gold;"></i></li>
+            <li>Elemen 3 dengan Ikon <i class="fas fa-rocket" style="color: #3498db;"></i></li>
+        </ul>
+        <p>Belajar lebih dalam di:
+            <a href="https://www.w3schools.com" target="_blank">W3Schools Official Site</a>
+            (Klik untuk melihat efek hover).
+        </p>
+        <h3>Data Table (CSS Tables)</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Properti CSS</th>
+                    <th>Fungsi Utama</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Colors & Backgrounds</td>
+                    <td>Mengatur estetika warna dan latar</td>
+                </tr>
+                <tr>
+                    <td>Box Model</td>
+                    <td>Mengatur spasi, border, dan dimensi</td>
+                </tr>
+                <tr>
+                    <td>Typography</td>
+                    <td>Mengatur Fonts dan Text style</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
