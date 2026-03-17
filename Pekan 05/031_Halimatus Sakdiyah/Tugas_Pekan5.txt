@@ -1,1 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contoh CSS Lengkap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <style>
+    /* CSS Comments */
+    body {
+      background-color: lightblue;
+      font-family: Tahoma, sans-serif;
+    }
+
+    /* CSS Colors & Text */
+    h1 {
+      color: green;
+      text-align: center;
+    }
+
+    p {
+      font-family: Verdana;
+      font-size: 20px;
+    }
+
+    #contoh1 {
+      text-align: center;
+      color: red;
+    }
+
+    .blue-text {
+      color: blue;
+    }
+
+    /* CSS Backgrounds */
+    h1.bg-green {
+      background-color: green;
+    }
+
+    div {
+      background-color: rgb(37, 93, 112);
+    }
+
+    p.bg-yellow {
+      background-color: yellow;
+    }
+
+    /* CSS Borders */
+    p.border {
+      border: 2px solid black;
+    }
+
+    div.margin {
+      border: 1px solid black;
+      margin: 25px 50px 75px 100px;
+      background-color: lightblue;
+    }
+
+    div.padding {
+      border: 1px solid black;
+      padding: 25px 50px 75px 100px;
+      background-color: lightblue;
+    }
+
+    div.box {
+      background-color: lightgrey;
+      width: 300px;
+      border: 15px solid green;
+      padding: 50px;
+      margin: 20px;
+    }
+
+    /* CSS Height & Width */
+    div.size {
+      height: 100px;
+      width: 500px;
+      background-color: rgb(9, 97, 68);
+    }
+
+    /* CSS Outline */
+    p.outline {
+      outline-color: rgb(128, 0, 70);
+      outline-style: solid;
+      padding: 5px;
+    }
+
+    /* CSS Links */
+    a {
+      color: hotpink;
+      background-color: yellow;
+      font-weight: bold;
+    }
+
+    /* CSS Lists */
+    ul {
+      list-style-image: url('sqpurple.gif');
+      list-style-type: square;  
+    }
+
+    /* CSS Tables */
+    table {
+      border-collapse: collapse;
+      width: 50%;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+      padding: 5px;
+      text-align: left;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>My First CSS Example</h1>
+  <p>This is a paragraph.</p>
+  <p id="contoh1">Paragraf ini ditulis menggunakan selector ID</p>
+
+  <h2>Pemrograman Web</h2>
+  <p>Hello World!</p>
+  <p>Ini paragraf yang sudah menggunakan CSS.</p>
+
+  <h1 style="background-color:DodgerBlue;">Halooo</h1>
+  <p style="background-color:Tomato;">Ini contoh paragraf sederhana untuk latihan HTML dan CSS.</p>
+
+  <h1 class="bg-green">Contoh Warna Background</h1>
+
+  <div>
+    Ini adalah teks di dalam elemen div.
+    <p class="bg-yellow">Ini adalah paragraf dengan warna background sendiri.</p>
+    Masih berada di dalam elemen div.
+  </div>
+
+  <h2>Contoh Border</h2>
+  <p class="border">Ini adalah contoh paragraf dengan border.</p>
+
+  <h2>Latihan Margin</h2>
+  <div class="margin">Contoh penggunaan margin</div>
+
+  <h2>Contoh Padding 4 Nilai</h2>
+  <div class="padding">
+    Div ini memiliki padding atas 25px, kanan 50px, bawah 75px, dan kiri 100px.
+  </div>
+
+  <h2>Contoh Tinggi dan Lebar</h2>
+  <div class="size">Div ini memiliki tinggi 100px dan lebar 500px.</div>
+
+  <h2>Latihan Box Model</h2>
+  <p>Box model terdiri dari content, padding, border, dan margin.</p>
+  <div class="box">Contoh penggunaan box model pada elemen div.</div>
+
+  <h2>Contoh Outline</h2>
+  <p class="outline">Paragraf ini menggunakan outline.</p>
+
+  <h2>Contoh Warna Teks</h2>
+  <p class="blue-text">Ini adalah contoh paragraf.</p>
+
+  <h2>Contoh Font Teks</h2>
+  <p>Ini adalah contoh penggunaan font pada halaman web.</p>
+  <p>Angka: 1 2 3 4 5 6 7 8 9</p>
+
+  <h1>Font Awesome icon library</h1>
+  <p>Some Font Awesome icons:</p>
+  <i class="fas fa-cloud"></i>
+  <i class="fas fa-heart"></i>
+  <i class="fas fa-car"></i>
+  <i class="fas fa-file"></i>
+  <i class="fas fa-bars"></i>
+
+  <p>Styled Font Awesome icons (size and color):</p>
+  <i class="fas fa-cloud" style="font-size:24px;"></i>
+  <i class="fas fa-cloud" style="font-size:36px;"></i>
+  <i class="fas fa-cloud" style="font-size:48px;color:red;"></i>
+  <i class="fas fa-cloud" style="font-size:60px;color:lightblue;"></i>
+
+  <h1>Style a link</h1>
+  <p><a href="default.asp" target="_blank">This is a link</a></p>
+
+  <h2>The list-style-image Property</h2>
+  <p>The list-style-image property specifies an image as the list item marker:</p>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Coca Cola</li>
+  </ul>
+
+  <h2>Contoh Tabel</h2>
+  <table>
+    <tr>
+      <th>Nama</th>
+      <th>Umur</th>
+    </tr>
+    <tr>
+      <td>Diyah</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Mila</td>
+      <td>19</td>
+    </tr>
+  </table>
+
+</body>
+</html>
