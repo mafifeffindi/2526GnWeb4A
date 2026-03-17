@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+/* ========================= */
+/* 1. CSS COMMENTS           */
+/* Digunakan untuk memberi   */
+/* catatan dalam kode CSS    */
+/* ========================= */
+
+/* 2. CSS COLORS */
+/* Mengatur warna teks */
+p {
+  color: red;
+}
+
+/* 3. CSS ERRORS */
+/* Contoh kesalahan penulisan CSS */
+p.error {
+  color:: blue; /* Salah karena double ":" */
+}
+
+/* 4. CSS BACKGROUNDS */
+/* Mengatur warna latar belakang */
+.bg {
+  background-color: lightblue;
+}
+
+/* 5. CSS BORDERS */
+/* Mengatur garis tepi elemen */
+.border {
+  border: 2px solid black;
+}
+
+/* 6. CSS MARGINS */
+/* Mengatur jarak luar elemen */
+.margin {
+  margin: 100px 150px 100px 80px;
+  background-color: lightyellow;
+}
+
+/* 7. CSS PADDING */
+/* Mengatur jarak dalam elemen */
+.padding {
+  padding: 25px;
+  border: 1px solid black;
+  background-color: lightgreen;
+}
+
+/* 8. CSS HEIGHT / WIDTH */
+/* Mengatur tinggi dan lebar elemen */
+.size {
+  height: 70px;
+  width: 100%;
+  border: 1px solid green;
+}
+
+/* 9. CSS BOX MODEL */
+/* Kombinasi content, padding, border, margin */
+.box {
+  width: 300px;
+  padding: 50px;
+  border: 15px solid green;
+  margin: 20px;
+  background-color: lightgrey;
+}
+
+/* 10. CSS OUTLINE */
+/* Garis luar tambahan di luar border */
+.outline {
+  border: 2px solid black;
+  outline: 3px dashed red;
+}
+
+/* 11. CSS TEXT */
+/* Mengatur tampilan teks */
+.text {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* 12. CSS FONTS */
+/* Mengatur jenis dan ukuran font */
+.font {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+/* 13. CSS ICONS */
+/* Mengatur ukuran icon (emoji) */
+.icon {
+  font-size: 30px;
+}
+
+/* 14. CSS LINKS */
+/* Mengatur tampilan link */
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+
+/* 15. CSS LISTS */
+/* Mengatur tampilan list */
+ul {
+  list-style-type: square;
+}
+
+/* 16. CSS TABLES */
+/* Mengatur tampilan tabel */
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1 style="background-color:DodgerBlue;">Hello Aku Ninis</h1>
+
+<!-- CSS BACKGROUND -->
+<p class="bg">Namaku Nurani Anisa Putri</p>
+
+<!-- CSS COLORS -->
+<p>Aku dari bangkalan</p>
+
+<!-- CSS BORDER -->
+<p class="border">NIM 240631100001</p>
+
+<!-- CSS ERROR -->
+<p class="error">xxxxxxxxxx</p>
+
+<!-- CSS MARGIN -->
+<h3>Margin</h3>
+<div class="margin">Prodi Pendidikan Informatika</div>
+
+<!-- CSS PADDING -->
+<h3>Padding</h3>
+<div class="padding">fakultas Keguruan dan Ilmu Pendidikan</div>
+
+<!-- CSS HEIGHT WIDTH -->
+<h3>Height & Width</h3>
+<div class="size">Aku Suka Makan</div>
+
+<!-- CSS BOX MODEL -->
+<h3>Box Model</h3>
+<div class="box">Aku Suka Makan</div>
+
+<!-- CSS OUTLINE -->
+<h3>Outline</h3>
+<p class="outline">NINIS CANTIK</p>
+
+<!-- CSS TEXT -->
+<h3>Text</h3>
+<p class="text">HAHAHAHA</p>
+
+<!-- CSS FONT -->
+<h3>Font</h3>
+<p class="font">hai aku ninis, ini adalah tugas Pemrograman web yang aku kerjakan</p>
+
+<!-- CSS ICON -->
+<h3>Icon</h3>
+<p class="icon">⭐ 🎉 👍</p>
+
+<!-- CSS LINK -->
+<h3>Link</h3>
+<a href="#">https://www.instagram.com/nrnansptr?utm_source=qr&igsh=bWw2NzVhaWwwNGZp</a>
+
+<!-- CSS LIST -->
+<h3>List</h3>
+<ul>
+  <li>Suka Sate Ayam</li>
+  <li>Suka Takoyaki</li>
+</ul>
+
+<!-- CSS TABLE -->
+<h3>Table</h3>
+<table>
+  <tr>
+    <th>Nama</th>
+    <th>Nilai</th>
+  </tr>
+  <tr>
+    <td>Ninis</td>
+    <td>90</td>
+  </tr>
+  <tr>
+    <td>Nurani</td>
+    <td>100</td>
+  </tr>
+</table>
+
+</body>
+</html>
