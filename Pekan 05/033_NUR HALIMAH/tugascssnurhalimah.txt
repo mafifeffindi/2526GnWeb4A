@@ -1,1 +1,135 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Lengkap</title>
+
+<!-- CSS -->
+<style>
+
+/* CSS Comments */
+body {
+  background-color: lightblue;
+}
+
+/* CSS Colors */
+h1 {
+  color: red;
+  text-align: center;
+}
+
+/* CSS Fonts */
+p {
+  font-family: Arial;
+  font-size: 16px;
+}
+
+/* CSS Borders */
+.box {
+  border: 2px solid black;
+}
+
+/* CSS Margins */
+.margin {
+  margin: 30px;
+}
+
+/* CSS Padding */
+.padding {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+/* CSS Height Width */
+.ukuran {
+  width: 200px;
+  height: 100px;
+  background: yellow;
+}
+
+/* CSS Box Model */
+.boxmodel {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 20px;
+}
+
+/* CSS Outline */
+.outline {
+  border: 1px solid black;
+  outline: 2px solid red;
+}
+
+/* CSS Text */
+.text {
+  text-transform: uppercase;
+}
+
+/* CSS Links */
+a {
+  color: red;
+}
+a:hover {
+  color: blue;
+}
+
+/* CSS Lists */
+ul {
+  list-style-type: square;
+}
+
+/* CSS Tables */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* CSS ID */
+#contoh1 {
+  color: purple;
+  text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>CONTOH CSS LENGKAP</h1>
+
+<p>Ini paragraf biasa</p>
+<p id="contoh1">Ini paragraf dengan ID</p>
+
+<div class="box margin">Contoh Border & Margin</div>
+
+<div class="padding">Contoh Padding</div>
+
+<div class="ukuran">Width & Height</div>
+
+<div class="boxmodel">Box Model</div>
+
+<p class="outline">Outline</p>
+
+<p class="text">text jadi besar semua</p>
+
+<a href="#">Ini Link</a>
+
+<ul>
+  <li>Satu</li>
+  <li>Dua</li>
+</ul>
+
+<table>
+<tr>
+<th>Nama</th>
+<th>NIM</th>
+</tr>
+<tr>
+<td>Devi</td>
+<td>004</td>
+</tr>
+</table>
+
+</body>
+</html>
