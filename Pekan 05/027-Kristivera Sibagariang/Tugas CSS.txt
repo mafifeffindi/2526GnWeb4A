@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>PEMROGRAMAN WEB</title>
     <script src="https://kit.fontawesome.com/673e2e216d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Nunito:wght@400;700&family=Pacifico&family=Space+Mono:wght@700&display=swap">
 </head>
 <style>
     body {
-        background-color: blue;
-        /*(ini adalah css comment) ini adalah style untuk body html agar berwarna biru*/
+        background-color: pink;
+        /*(css comment) ini adalah style untuk body html agar berwarna pink*/
 
     }
 
@@ -116,19 +118,19 @@
 </style>
 
 <body>
-    <i class="fa-solid fa-ban-smoking" style="font-size: 120px;"></i>
-    <h1>Ini Heading 1</h1>
-    <h2>Ini adalah Heading 2</h2>
-    <div> Ini adalah contoh css background
+    
+    <h1>HEADING 1</h1>
+    <h2>Heading 2</h2>
+    <div> contoh css background
         <p class="bg">Ini adalah paragraf</p>
         background color di dalam background color
     </div>
-    <p class="dotted">ini adalah contoh css border dotted</p>
-    <p class="dotted2"> Ini adalah contoh css outline</p>
-    <div class="kedua">INI ADALAH CONTOH CSS PADDING</div>
-    <div class="ketiga">Ini adalah contoh css height dan width</div>
-    <div class="keempat"> Ini adalah contoh css box model</div>
-    <a href="https://fontawesome.com/"> Ini adalah link untuk mencari icon untuk css/html</a>
+    <p class="dotted">Contoh css border dotted</p>
+    <p class="dotted2"> Contoh css outline</p>
+    <div class="kedua">CONTOH CSS PADDING</div>
+    <div class="ketiga">Contoh css height dan width</div>
+    <div class="keempat"> Contoh css box model</div>
+    <a href="https://fontawesome.com/"> Link untuk mencari icon untuk css/html</a>
     <ul class="a">
         <li>Hanami</li>
         <li>Rama</li>
