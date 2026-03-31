@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sederhana - Fresh Mint Edition</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <style>
+        /* 1. RESET & BASE STYLES */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            /* Latar Belakang Desain Mewah: Gradasi Hijau dengan Pola Halus */
+            background-color: #f0fff4;
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(72, 187, 120, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(56, 161, 105, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(121, 225, 153, 0.15) 0px, transparent 50%),
+                radial-gradient(at 0% 100%, rgba(47, 133, 90, 0.15) 0px, transparent 50%);
+            color: #22543d;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* 2. HEADER - Nature Gradient */
+        header {
+            background: linear-gradient(135deg, #48bb78 0%, #2f855a 100%);
+            color: white;
+            padding: 70px 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(47, 133, 90, 0.2);
+            clip-path: ellipse(150% 100% at 50% 0%); /* Efek lengkung bawah yang unik */
+        }
+
+        header h1 {
+            font-size: 3.2rem;
+            font-weight: 800;
+            letter-spacing: -1.5px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        /* 3. NAVIGATION - Glassmorphism Green */
+        nav {
+            background-color: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(15px);
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(72, 187, 120, 0.2);
+        }
+
+        nav a {
+            color: #2f855a;
+            margin: 0 25px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1rem;
+            position: relative;
+        }
+
+        nav a:hover {
+            color: #48bb78;
+        }
+
+        nav a::after {
+            content: '';
+            width: 0;
+            height: 3px;
+            background: #48bb78;
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
+        /* 4. MAIN CONTENT - Floating Card */
+        .container {
+            max-width: 900px;
+            margin: -30px auto 50px; /* Membuat card sedikit naik ke area header */
+            padding: 50px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 32px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.08);
+            border: 1px solid white;
+            flex: 1;
+        }
+
+        h2 {
+            color: #1c4532;
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+        }
+
+        h2 span {
+            color: #48bb78;
+        }
+
+        .container p {
+            color: #4a5568;
+            font-size: 1.15rem;
+            margin-bottom: 35px;
+        }
+
+        /* 5. LIST STYLING - Eco Bubbles */
+        h3 {
+            margin-bottom: 20px;
+            color: #276749;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+        }
+
+        ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        ul li {
+            background: white;
+            padding: 20px;
+            border-radius: 20px;
+            font-weight: 600;
+            color: #2f855a;
+            text-align: center;
+            border: 2px solid #f0fff4;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+        }
+
+        ul li:hover {
+            background: #f0fff4;
+            border: 2px solid #48bb78;
+            transform: translateY(-8px) scale(1.05);
+            box-shadow: 0 20px 25px -5px rgba(72, 187, 120, 0.1);
+        }
+
+        /* 6. FOOTER - Forest Green */
+        footer {
+            background-color: #1c4532;
+            color: #f0fff4;
+            text-align: center;
+            padding: 40px;
+            margin-top: auto;
+            font-weight: 300;
+        }
+
+        footer strong {
+            color: #9ae6b4;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 600px) {
+            header h1 { font-size: 2.2rem; }
+            .container { margin: 20px; padding: 30px; border-radius: 20px; }
+            nav a { margin: 0 10px; font-size: 0.85rem; }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Website Sederhana</h1>
+    <p>Belajar kode dengan suasana <strong>asri dan segar</strong></p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Profil</a>
+    <a href="#">Kontak</a>
+</nav>
+
+<div class="container">
+    <h2>Selamat <span>Datang</span></h2>
+    <p>
+        Kamu sedang melihat tampilan web dengan tema <strong>Fresh Mint</strong>. 
+        Kombinasi warna hijau ini dirancang untuk memberikan ketenangan saat belajar. 
+        Latar belakang menggunakan teknik <em>Multi-Radial Gradient</em> untuk menciptakan 
+        kedalaman desain yang premium.
+    </p>
+
+    <h3>Materi Dasar HTML</h3>
+    <ul>
+        <li>🌿 Struktur HTML</li>
+        <li>🍃 Heading & Paragraf</li>
+        <li>🔗 Link (Tautan)</li>
+        <li>📋 List (Daftar)</li>
+    </ul>
+</div>
+
+<footer>
+    <p>© 2026 — <strong>Belajar Pemrograman Web</strong> — Mari Tumbuh Bersama Kode 🌳</p>
+</footer>
+
+</body>
+</html>
