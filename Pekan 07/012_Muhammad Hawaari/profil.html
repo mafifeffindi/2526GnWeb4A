@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Membuat foto jadi bulat */
+            object-fit: cover;
+            border: 3px solid #2c3e50;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        .biodata-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .biodata-table td {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        .label { font-weight: bold; width: 30%; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Profil Saya</h1>
+    <p>Mahasiswa Informatika Pendidikan</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="profil.html">Profil</a>
+    <a href="#">Kontak</a>
+</nav>
+
+<div class="container">
+    <img src="aLmIZAN.jpg" alt="Foto Profil" class="profile-pic">
+    
+    <h2>Biodata Diri</h2>
+    <table class="biodata-table">
+        <tr>
+            <td class="label">Nama Lengkap</td>
+            <td>Muhammad Hawaari</td>
+        </tr>
+        <tr>
+            <td class="label">NIM</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td class="label">Program Studi</td>
+            <td>Informatika Pendidikan</td>
+        </tr>
+        <tr>
+            <td class="label">Instansi</td>
+            <td>Universitas Trunojoyo Madura</td>
+        </tr>
+        <tr>
+            <td class="label">Asal</td>
+            <td>Babat, Lamongan</td>
+        </tr>
+    </table>
+</div>
+
+<footer>
+    <p>© 2026 - Belajar Pemrograman Web</p>
+</footer>
+
+</body>
+</html>
