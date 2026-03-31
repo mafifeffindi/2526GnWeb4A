@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Implementasi CSS - Pekan 05</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(120deg, #89f7fe, #66a6ff);
+            color: #2d3436;
+            padding: 20px;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 50px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+
+        h1 {
+            text-align: center;
+            color: #0984e3;
+            margin-bottom: 25px;
+            font-size: 28px;
+        }
+
+        /* 🔥 BAGIAN YANG DIUBAH (LAYOUT NAMA & NIM) */
+        .container p {
+            display: flex;
+            justify-content: space-between;
+            background: #f1f2f6;
+            padding: 12px 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            border-left: 5px solid #0984e3;
+            transition: 0.3s;
+        }
+
+        .container p:hover {
+            background: #dfe6e9;
+            transform: scale(1.02);
+        }
+
+        .container p strong {
+            color: #0984e3;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background: linear-gradient(to right, #0984e3, #6c5ce7);
+            margin: 20px 0;
+        }
+
+        h3 {
+            margin-top: 20px;
+            color: #2d3436;
+        }
+
+        a {
+            color: #6c5ce7;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #d63031;
+        }
+
+        ul {
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        ul li {
+            padding: 8px;
+            background: #f1f2f6;
+            margin-bottom: 5px;
+            border-radius: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th {
+            background-color: #0984e3;
+            color: white;
+            padding: 12px;
+        }
+
+        td {
+            padding: 12px;
+            background-color: #f8f9fa;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #e9ecef;
+        }
+
+        tr:hover td {
+            background-color: #dfe6e9;
+        }
+
+        .icon {
+            color: #0984e3;
+            margin-right: 8px;
+        }
+
+        .error-box {
+            color: #c0392b;
+            background: #ffe6e6;
+            padding: 10px;
+            border-radius: 6px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Implementasi CSS - Pekan 05</h1>
+
+    <p><strong>Nama Lengkap:</strong> Nur Aisyah</p>
+    <p><strong>NIM Terakhir:</strong> 019</p>
+    
+    <hr>
+
+    <h3><i class="fas fa-info-circle icon"></i>Data Mahasiswa (CSS Tables)</h3>
+    <table>
+        <tr>
+            <th>Detail</th>
+            <th>Keterangan</th>
+        </tr>
+        <tr>
+            <td>Mata Kuliah</td>
+            <td>Pemrograman Web</td>
+        </tr>
+        <tr>
+            <td>Status Tugas</td>
+            <td>Selesai (Pekan 05)</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <h3>Materi yang Dipelajari (CSS Lists):</h3>
+    <ul>
+        <li>Box Model (Margin, Padding, Border)</li>
+        <li>Text and Fonts Manipulation</li>
+        <li>Colors and Background Styling</li>
+        <li>Table and Link Styling</li>
+    </ul>
+
+    <p>
+        Kunjungi profil GitHub untuk referensi lainnya: 
+        <a href="https://github.com/mafifeffindi" target="_blank">Klik di sini</a>
+    </p>
+</div>
+
+</body>
+</html>
