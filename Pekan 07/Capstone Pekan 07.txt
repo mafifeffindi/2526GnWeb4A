@@ -1,0 +1,75 @@
+Pada pekan ke-7, mahasiswa akan mengerjakan Capstone Project Front-End sebagai bentuk penerapan materi yang telah dipelajari sebelumnya, khususnya mengenai struktur HTML dan styling menggunakan CSS. Melalui proyek ini, mahasiswa diharapkan mampu merancang dan membangun tampilan website sederhana yang terstruktur, responsif, dan memiliki tampilan antarmuka yang baik.
+
+Mahasiswa diminta untuk membuat sebuah website statis sederhana dengan ketentuan sebagai berikut:
+
+Website terdiri dari minimal 3 halaman, misalnya:
+
+Halaman Beranda (Home)
+
+Halaman Profil / Tentang
+
+Halaman Kontak atau Layanan
+
+
+Website harus menggunakan:
+
+HTML untuk struktur halaman
+
+CSS untuk desain dan tata letak
+
+Navigasi menu yang menghubungkan antar halaman
+
+
+Website harus memiliki komponen berikut:
+
+Header atau judul website
+
+Navigation bar/menu
+
+Konten utama
+
+Gambar atau ilustrasi
+
+Footer
+
+
+Desain website harus memperhatikan:
+
+Kerapian struktur HTML
+
+Konsistensi penggunaan CSS
+
+Tata letak yang mudah dibaca dan dipahami pengguna
+
+
+Mahasiswa dianjurkan menggunakan:
+
+Layout Flexbox atau Grid
+
+Warna dan tipografi yang konsisten
+
+Struktur folder yang rapi (html, css, images)
+
+
+Output yang dikumpulkan:
+
+Folder project website
+
+File utama index.html
+
+File CSS
+
+Screenshot tampilan website
+
+Link repository GitHub
+
+
+Kriteria Penilaian:
+
+Struktur HTML yang benar (30%)
+
+Desain dan penggunaan CSS (30%)
+
+Navigasi dan kelengkapan halaman (20%)
+
+Kerapian kode dan organisasi file (20%)
