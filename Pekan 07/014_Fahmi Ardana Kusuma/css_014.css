@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Sederhana</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #e18617;
+        }
+
+        header {
+            background-color: #5994ce;
+            color: rgb(245, 242, 242);
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #2a7536;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: rgb(249, 244, 244);
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        .container {
+            padding: 25px;
+            background-color: rgb(192, 97, 9);
+            margin: 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #0d1f31;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Test web</h1>
+    <p>Belajar HTML dasar</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Profil</a>
+    <a href="#">Kontak</a>
+    <a href="#">Test</a>
+</nav>
+
+<div class="container">
+    <h2>Welcome</h2>
+    <p>
+        Ini adalah contoh tampilan web sederhana menggunakan HTML dan CSS.
+        Anda bisa mengembangkan desain ini menjadi website yang lebih lengkap.
+    </p>
+
+    <h3>Materi Dasar HTML</h3>
+    <ul>
+        <li>Struktur HTML</li>
+        <li>Heading dan Paragraf</li>
+        <li>Link</li>
+        <li>List</li>
+    </ul>
+</div>
+
+<footer>
+    <p>© Dana Belajar</p>
+    <p>© 2026 - Belajar Pemrograman Web</p>
+</footer>
+
+</body>
+</html>
