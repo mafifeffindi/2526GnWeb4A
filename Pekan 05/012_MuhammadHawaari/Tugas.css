@@ -1,0 +1,109 @@
+/* CSS Errors */
+ p {
+   color: red; /* benar */
+ }
+ h1 {
+   color: blue /* salah, kurang titik koma */
+ }
+
+/* CSS Colors */
+ p {
+   color: blue;
+   background-color: yellow;
+ }
+
+/* CSS Backgrounds */
+ body {
+   background-color: lightgray;
+   background-image: url("bg.jpg");
+   background-repeat: no-repeat;
+ }
+
+/* CSS Borders */
+ div {
+   border: 2px solid black;
+   border-radius: 10px;
+ }
+
+/* CSS Margins */
+ div {
+   margin: 20px;
+   margin-top: 10px;
+ }
+
+/* CSS Padding */
+ div {
+   padding: 15px;
+   padding-left: 25px;
+ }
+
+/* CSS Height / Width */
+ div {
+   width: 200px;
+   height: 100px;
+   max-width: 300px;
+ }
+
+/* CSS Box Model */
+ div {
+   margin: 10px;
+   border: 2px solid black;
+   padding: 10px;
+   box-sizing: border-box;
+ }
+
+/* CSS Outline */
+ div {
+   outline: 2px dashed red;
+   outline-offset: 5px;
+ }
+
+/* CSS Text */
+ p {
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+ }
+
+/* CSS Fonts */
+ p {
+   font-family: Arial, sans-serif;
+   font-size: 16px;
+   font-weight: bold;
+ }
+
+/* CSS Icons */
+ i {
+   font-size: 24px;
+   color: orange;
+ }
+
+/* CSS Links */
+ a {
+   color: green;
+   text-decoration: none;
+ }
+ a:hover {
+   color: red;
+   text-decoration: underline;
+ }
+
+/* CSS Lists */
+ ul {
+   list-style-type: square;
+   padding-left: 20px;
+ }
+
+/* CSS Tables */
+ table {
+   border-collapse: collapse;
+   width: 100%;
+ }
+ th, td {
+   border: 1px solid black;
+   padding: 8px;
+   text-align: left;
+ }
+ th {
+   background-color: lightblue;
+ }
