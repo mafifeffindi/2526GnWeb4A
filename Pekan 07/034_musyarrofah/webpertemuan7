@@ -1,1 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Sederhana</title>
 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #1b2c3a;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #1c3447;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        .container {
+            padding: 20px;
+            background-color: rgb(178, 208, 241);
+            margin: 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #1b2c3a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Website Musyarrofah</h1>
+    <p>Belajar HTML dasar</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Profil</a>
+    <a href="#">Kontak</a>
+</nav>
+
+<div class="container">
+    <h2>Selamat Datang</h2>
+    <p>
+        Di Web ini kalian akan mempelajari materi dasar HTML, dan CSS.
+        Lihat beberapa materi yang akan kita pelajari di bawah ini:
+    </p>
+
+    <h3>Materi Dasar HTML</h3>
+    <ul>
+        <li>Struktur HTML</li>
+        <li>Heading dan Paragraf</li>
+        <li>Link</li>
+        <li>List</li>
+    </ul>
+</div>
+
+<footer>
+    <p>© 2026 - Belajar Pemrograman Web</p>
+</footer>
+
+</body>
+</html>
