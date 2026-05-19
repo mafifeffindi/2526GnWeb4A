@@ -1,0 +1,81 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fffafc;
+    margin: 0;
+    padding: 20px;
+}
+
+/* container biar tengah */
+.container {
+    max-width: 850px;
+    margin: auto;
+}
+
+/* judul */
+h2 {
+    color: #d48fa6;
+}
+
+/* tombol */
+button, .btn {
+    background: #f7c8d9;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover, .btn:hover {
+    background: #f2c94c;
+}
+
+/* link */
+a {
+    text-decoration: none;
+    color: #d48fa6;
+}
+
+/* logout */
+a[href="logout.php"] {
+    background: #f7c8d9;
+    padding: 6px 12px;
+    border-radius: 10px;
+}
+
+/* search box */
+input {
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+
+/* tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* header tabel */
+th {
+    background: #ffe4ec;
+    padding: 10px;
+}
+
+/* isi tabel */
+td {
+    padding: 10px;
+}
+
+/* zebra table */
+tr:nth-child(even) {
+    background: #fff7d6;
+}
+
+/* efek hover */
+tr:hover {
+    background: #ffeaa7;
+}
