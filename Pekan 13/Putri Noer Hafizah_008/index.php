@@ -6,7 +6,6 @@ include 'koneksi.php';
 <html>
 <head>
     <title>Data Mahasiswa</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -18,6 +17,7 @@ include 'koneksi.php';
         <th>No</th>
         <th>NIM</th>
         <th>Nama</th>
+        <th>Prodi</th>
         <th>Aksi</th>
     </tr>
 
@@ -30,12 +30,14 @@ include 'koneksi.php';
         <td><?php echo $no++; ?></td>
         <td><?php echo $d['nim']; ?></td>
         <td><?php echo $d['nama']; ?></td>
+        <td><?php echo $d['prodi']; ?></td>
         <td>
             <a href="edit.php?id=<?php echo $d['id']; ?>">Edit</a>
             <a href="hapus.php?id=<?php echo $d['id']; ?>">Hapus</a>
         </td>
     </tr>
     <?php } ?>
+
 </table>
 
 </body>
