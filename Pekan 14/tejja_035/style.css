@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #d6bfa9, #ede0d4);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    margin: 40px auto;
+    background: #fffaf5;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+h2 {
+    text-align: center;
+    color: #6f4e37;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #c4a484;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: #fdf8f3;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #8b5e3c;
+    box-shadow: 0 0 5px rgba(139,94,60,0.5);
+}
+
+button {
+    background: #8b5e3c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #6f4e37;
+    transform: scale(1.03);
+}
+
+.btn {
+    background: #a67b5b;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #8b5e3c;
+}
+
+.btn-logout {
+    background: #6f4e37;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn-logout:hover {
+    background: #4e342e;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+table th {
+    background: #8b5e3c;
+    color: white;
+    padding: 12px;
+}
+
+table td {
+    padding: 12px;
+    text-align: center;
+    background: #fffaf5;
+    border-bottom: 1px solid #e0d3c5;
+}
+
+table tr:hover td {
+    background: #f3e5d8;
+}
+
+a {
+    text-decoration: none;
+    color: #6f4e37;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #a67b5b;
+}
+
+form {
+    margin-top: 20px;
+}
