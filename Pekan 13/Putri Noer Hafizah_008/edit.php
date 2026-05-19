@@ -6,11 +6,12 @@ $data = mysqli_query($conn, "SELECT * FROM mahasiswa WHERE id='$id'");
 $d = mysqli_fetch_array($data);
 
 if(isset($_POST['update'])){
-    $nim  = $_POST['nim'];
-    $nama = $_POST['nama'];
+    $nim   = $_POST['nim'];
+    $nama  = $_POST['nama'];
+    $prodi = $_POST['prodi'];
 
     mysqli_query($conn, "UPDATE mahasiswa 
-        SET nim='$nim', nama='$nama' 
+        SET nim='$nim', nama='$nama', prodi='$prodi' 
         WHERE id='$id'");
 
     header("location:index.php");
@@ -31,7 +32,10 @@ if(isset($_POST['update'])){
     <input type="text" name="nim" value="<?php echo $d['nim']; ?>"><br>
 
     Nama <br>
-    <input type="text" name="nama" value="<?php echo $d['nama']; ?>"><br><br>
+    <input type="text" name="nama" value="<?php echo $d['nama']; ?>"><br>
+
+    Prodi <br>
+    <input type="text" name="prodi" value="<?php echo $d['prodi']; ?>"><br><br>
 
     <input type="submit" name="update" value="Update">
 </form>
