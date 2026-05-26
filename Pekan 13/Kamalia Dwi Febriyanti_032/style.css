@@ -1,0 +1,329 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fff0f5; /* Pink super soft (Lavender Blush) */
+}
+
+/* LOGIN */
+.login-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box{
+    width: 350px;
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(244, 143, 177, 0.2);
+    text-align: center;
+    border: 1px solid #fbc4d6;
+}
+
+.login-box h2{
+    margin-bottom: 5px;
+    color: #c2185b; /* Pink gelap cerah */
+}
+
+.sub-title{
+    color: #880e4f;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.login-box input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #f8bbd0;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.login-box input:focus{
+    outline: none;
+    border-color: #f06292;
+    box-shadow: 0 0 5px rgba(240, 98, 146, 0.4);
+}
+
+.login-box button{
+    width: 100%;
+    padding: 12px;
+    background: #f06292; /* Soft Pink Utama */
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-box button:hover{
+    background: #ec407a; /* Pink agak gelap saat di-hover */
+}
+
+.error{
+    background: #ffe4e1;
+    color: #c2185b;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border: 1px solid #fbc4d6;
+}
+
+/* INDEX */
+.container{
+    width: 95%;
+    margin: 30px auto;
+}
+
+h2{
+    color: #880e4f;
+    margin-bottom: 20px;
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.tambah{
+    background: #f06292;
+}
+
+.tambah:hover{
+    background: #ec407a;
+}
+
+.logout{
+    background: #ba1a1a;
+}
+
+.search-box{
+    margin-bottom: 20px;
+}
+
+.search-box input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #f8bbd0;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.search-box input:focus{
+    outline: none;
+    border-color: #f06292;
+}
+
+.search-box button{
+    padding: 10px 15px;
+    background: #f06292;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5px;
+}
+
+.search-box button:hover{
+    background: #ec407a;
+}
+
+.table-container{
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(244, 143, 177, 0.1);
+    overflow-x: auto;
+    border: 1px solid #fbc4d6;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background: #f06292;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    border: 1px solid #f8bbd0;
+}
+
+td{
+    padding: 12px;
+    border: 1px solid #ffe4e1;
+    text-align: center;
+    color: #494949;
+}
+
+tr:hover{
+    background: #fff5f7; /* Background baris tabel pas di-hover */
+}
+
+/* FORM CONTAINER */
+.form-container{
+    width: 420px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(244, 143, 177, 0.1);
+    border: 1px solid #fbc4d6;
+}
+
+.form-container h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #c2185b;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label{
+    margin-bottom: 6px;
+    color: #880e4f;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea{
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #f8bbd0;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    outline: none;
+}
+
+.form-container input:focus,
+.form-container select:focus,
+.form-container textarea:focus{
+    border-color: #f06292;
+    box-shadow: 0 0 5px rgba(240, 98, 146, 0.3);
+}
+
+.form-container textarea{
+    resize: none;
+    height: 90px;
+}
+
+.button-group{
+    display: flex;
+    gap: 10px;
+}
+
+.form-container button{
+    flex: 1;
+    background: #f06292;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.form-container button:hover{
+    background: #ec407a;
+}
+
+.kembali{
+    flex: 1;
+    background: #d291bc; /* Pink pastel kalem untuk tombol kembali */
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.kembali:hover{
+    background: #c17ba7;
+}
+
+/* BUTTON AKSI DI TABEL */
+.edit-btn{
+    background: #f48fb1;
+    color: white;
+    text-decoration: none;
+    padding: 7px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.edit-btn:hover{
+    background: #f06292;
+}
+
+.hapus-btn{
+    background: #ff8a80;
+    color: white;
+    text-decoration: none;
+    padding: 7px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-left: 5px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.hapus-btn:hover{
+    background: #ff5252;
+}
+
+/* NOTIF HAPUS / ERROR */
+.notif-hapus{
+    background: #ffe4e1;
+    color: #c2185b;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+    animation: muncul 0.3s ease;
+    border: 1px solid #fbc4d6;
+}
+
+/* ANIMASI */
+@keyframes muncul{
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
