@@ -1,3 +1,5 @@
+login
+
 <?php
 session_start();
 include 'koneksi.php';
@@ -10,7 +12,7 @@ if(isset($_POST['login'])){
     $password = $_POST['password'];
 
     $data = mysqli_query($koneksi,
-    "SELECT * FROM user
+    "SELECT * FROM login
     WHERE username='$username'
     AND password='$password'");
 
