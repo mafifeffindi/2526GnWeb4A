@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Josefin+Sans:wght@400;700&display=swap');
+
+body {
+    background-color: #f0f4f8; 
+    font-family: 'Space Grotesk', sans-serif;
+    color: #1e293b;
+}
+
+h2, h4, th {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+thead.table-dark th {
+    background-color: #1e3a8a !important;
+    color: #ffffff !important;
+    border-color: #1e3a8a !important;
+}
+
+.btn-primary {
+    background-color: #2563eb !important; 
+    border-color: #2563eb !important;
+}
+
+.btn-success {
+    background-color: #0284c7 !important; 
+    border-color: #0284c7 !important;
+}
+
+.btn {
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+    .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+    }
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(30, 58, 138, 0.08) !important;
+}
+
+.card-header {
+    border-top-left-radius: 12px !important;
+    border-top-right-radius: 12px !important;
+}
+
+    .card-header.bg-primary {
+        background-color: #1d4ed8 !important;
+    }
+
+.btn-danger {
+    background-color: #1d3557 !important; 
+    border-color: #1d3557 !important;
+    color: #ffffff !important;
+}
+
+    .btn-danger:hover {
+        background-color: #112240 !important; 
+        border-color: #112240 !important;
+    }
