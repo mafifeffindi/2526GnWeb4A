@@ -2,11 +2,10 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background: #f4f6f9;
+    background: #fff0f5; /* Pink super soft (Lavender Blush) */
 }
 
 /* LOGIN */
-
 .login-container{
     height: 100vh;
     display: flex;
@@ -19,17 +18,18 @@ body{
     background: white;
     padding: 35px;
     border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(244, 143, 177, 0.2);
     text-align: center;
+    border: 1px solid #fbc4d6;
 }
 
 .login-box h2{
     margin-bottom: 5px;
-    color: #333;
+    color: #c2185b; /* Pink gelap cerah */
 }
 
 .sub-title{
-    color: #777;
+    color: #880e4f;
     font-size: 14px;
     margin-bottom: 20px;
 }
@@ -38,15 +38,22 @@ body{
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #f8bbd0;
     border-radius: 8px;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.login-box input:focus{
+    outline: none;
+    border-color: #f06292;
+    box-shadow: 0 0 5px rgba(240, 98, 146, 0.4);
 }
 
 .login-box button{
     width: 100%;
     padding: 12px;
-    background: #3498db;
+    background: #f06292; /* Soft Pink Utama */
     border: none;
     color: white;
     border-radius: 8px;
@@ -57,27 +64,27 @@ body{
 }
 
 .login-box button:hover{
-    background: #2980b9;
+    background: #ec407a; /* Pink agak gelap saat di-hover */
 }
 
 .error{
-    background: #ffdddd;
-    color: #d63031;
+    background: #ffe4e1;
+    color: #c2185b;
     padding: 10px;
     border-radius: 8px;
     margin-bottom: 15px;
     font-size: 14px;
+    border: 1px solid #fbc4d6;
 }
 
 /* INDEX */
-
 .container{
     width: 95%;
     margin: 30px auto;
 }
 
 h2{
-    color: #333;
+    color: #880e4f;
     margin-bottom: 20px;
 }
 
@@ -93,14 +100,19 @@ h2{
     padding: 10px 18px;
     border-radius: 8px;
     font-size: 14px;
+    font-weight: 500;
 }
 
 .tambah{
-    background: #3498db;
+    background: #f06292;
+}
+
+.tambah:hover{
+    background: #ec407a;
 }
 
 .logout{
-    background: #e74c3c;
+    background: #ba1a1a;
 }
 
 .search-box{
@@ -110,27 +122,38 @@ h2{
 .search-box input{
     width: 250px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #f8bbd0;
     border-radius: 8px;
     font-family: 'Poppins', sans-serif;
 }
 
+.search-box input:focus{
+    outline: none;
+    border-color: #f06292;
+}
+
 .search-box button{
     padding: 10px 15px;
-    background: #3498db;
+    background: #f06292;
     color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
+    margin-left: 5px;
+}
+
+.search-box button:hover{
+    background: #ec407a;
 }
 
 .table-container{
     background: white;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    box-shadow: 0 5px 15px rgba(244, 143, 177, 0.1);
     overflow-x: auto;
+    border: 1px solid #fbc4d6;
 }
 
 table{
@@ -139,49 +162,39 @@ table{
 }
 
 th{
-    background: #3498db;
+    background: #f06292;
     color: white;
     padding: 14px;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 1px solid #f8bbd0;
 }
 
 td{
     padding: 12px;
-    border: 1px solid #eee;
+    border: 1px solid #ffe4e1;
     text-align: center;
+    color: #494949;
 }
 
 tr:hover{
-    background: #f9f9f9;
+    background: #fff5f7; /* Background baris tabel pas di-hover */
 }
 
-.edit{
-    color: #3498db;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.hapus{
-    color: #e74c3c;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-/* FORM */
-
+/* FORM CONTAINER */
 .form-container{
     width: 420px;
     margin: 40px auto;
     background: white;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    box-shadow: 0 5px 15px rgba(244, 143, 177, 0.1);
+    border: 1px solid #fbc4d6;
 }
 
 .form-container h2{
     text-align: center;
     margin-bottom: 25px;
+    color: #c2185b;
 }
 
 .form-container form{
@@ -191,7 +204,7 @@ tr:hover{
 
 .form-container label{
     margin-bottom: 6px;
-    color: #333;
+    color: #880e4f;
     font-size: 14px;
     font-weight: 500;
 }
@@ -201,7 +214,7 @@ tr:hover{
 .form-container textarea{
     padding: 12px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #f8bbd0;
     border-radius: 8px;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -211,7 +224,8 @@ tr:hover{
 .form-container input:focus,
 .form-container select:focus,
 .form-container textarea:focus{
-    border-color: #3498db;
+    border-color: #f06292;
+    box-shadow: 0 0 5px rgba(240, 98, 146, 0.3);
 }
 
 .form-container textarea{
@@ -226,7 +240,7 @@ tr:hover{
 
 .form-container button{
     flex: 1;
-    background: #3498db;
+    background: #f06292;
     color: white;
     border: none;
     padding: 12px;
@@ -234,45 +248,47 @@ tr:hover{
     cursor: pointer;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
 .form-container button:hover{
-    background: #2980b9;
+    background: #ec407a;
 }
 
 .kembali{
     flex: 1;
-    background: #95a5a6;
+    background: #d291bc; /* Pink pastel kalem untuk tombol kembali */
     color: white;
     text-decoration: none;
     padding: 12px;
     border-radius: 8px;
     text-align: center;
     font-size: 14px;
+    font-weight: 500;
 }
 
 .kembali:hover{
-    background: #7f8c8d;
+    background: #c17ba7;
 }
 
-/* BUTTON AKSI */
-
+/* BUTTON AKSI DI TABEL */
 .edit-btn{
-    background: #3498db;
+    background: #f48fb1;
     color: white;
     text-decoration: none;
     padding: 7px 12px;
     border-radius: 6px;
     font-size: 13px;
     transition: 0.3s;
+    font-weight: 500;
 }
 
 .edit-btn:hover{
-    background: #2980b9;
+    background: #f06292;
 }
 
 .hapus-btn{
-    background: #e74c3c;
+    background: #ff8a80;
     color: white;
     text-decoration: none;
     padding: 7px 12px;
@@ -280,37 +296,34 @@ tr:hover{
     font-size: 13px;
     margin-left: 5px;
     transition: 0.3s;
+    font-weight: 500;
 }
 
 .hapus-btn:hover{
-    background: #c0392b;
+    background: #ff5252;
 }
 
-/* NOTIF HAPUS */
-
+/* NOTIF HAPUS / ERROR */
 .notif-hapus{
-    background: #ffdddd;
-    color: #d63031;
+    background: #ffe4e1;
+    color: #c2185b;
     padding: 12px;
     border-radius: 8px;
     margin-bottom: 20px;
     text-align: center;
     font-size: 14px;
     animation: muncul 0.3s ease;
+    border: 1px solid #fbc4d6;
 }
 
 /* ANIMASI */
-
 @keyframes muncul{
-
     from{
         opacity: 0;
         transform: translateY(-10px);
     }
-
     to{
         opacity: 1;
         transform: translateY(0);
     }
-
 }
