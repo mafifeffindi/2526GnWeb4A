@@ -1,0 +1,9 @@
+Modifikasi dari tugas pekan 13, dengan menambahkan:
+1. Menambahkan Login
+2. Menambahkan field:
+a) Email
+b) Nomor HP
+3. Menambahkan:
+a) Pencarian data
+b) Konfirmasi hapus
+4. Mendesain tampilan lebih menarik menggunakan CSS atau Bootstrap.
