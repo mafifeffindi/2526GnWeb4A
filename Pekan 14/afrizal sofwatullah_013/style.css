@@ -1,0 +1,227 @@
+/* ================================================
+   SISTEM DATA MAHASISWA - Custom CSS
+   ================================================ */
+
+/* === GLOBAL === */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* === NAVBAR === */
+.navbar-custom {
+    background: linear-gradient(135deg, #1a3a6b 0%, #2563eb 100%);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 0.75rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+/* === LOGIN PAGE === */
+.login-page {
+    background: linear-gradient(135deg, #1a3a6b 0%, #2563eb 60%, #60a5fa 100%);
+    min-height: 100vh;
+}
+
+.login-wrapper {
+    width: 100%;
+    max-width: 420px;
+    padding: 1rem;
+}
+
+.login-card {
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.login-header {
+    background: linear-gradient(135deg, #1e40af, #3b82f6);
+    padding: 2rem;
+    border-bottom: none;
+}
+
+.btn-login {
+    background: linear-gradient(135deg, #1e40af, #3b82f6);
+    border: none;
+    padding: 0.65rem;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+    background: linear-gradient(135deg, #1a3a8f, #2563eb);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+}
+
+/* === PAGE HEADER CARD === */
+.page-header-card {
+    background: linear-gradient(135deg, #1a3a6b 0%, #2563eb 100%);
+    border: none;
+    border-radius: 12px;
+}
+
+/* === FORM CARD HEADER === */
+.form-card-header {
+    background: linear-gradient(135deg, #1a3a6b, #2563eb);
+    border-bottom: none;
+    padding: 1rem 1.5rem;
+}
+
+.form-card-header-edit {
+    background: linear-gradient(135deg, #92400e, #d97706);
+    border-bottom: none;
+    padding: 1rem 1.5rem;
+}
+
+/* === TABLE === */
+.data-table thead th {
+    background: linear-gradient(135deg, #1a3a6b, #2563eb);
+    color: white;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+    padding: 0.85rem 1rem;
+}
+
+.data-table tbody tr {
+    transition: background-color 0.15s ease;
+}
+
+.data-table tbody tr:hover {
+    background-color: #eff6ff;
+}
+
+.data-table td {
+    padding: 0.75rem 1rem;
+    vertical-align: middle;
+    border-color: #e5e7eb;
+    font-size: 0.9rem;
+}
+
+/* === CARDS === */
+.card {
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+
+.card-header {
+    border-radius: 12px 12px 0 0 !important;
+}
+
+/* === BUTTONS === */
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #1e40af, #3b82f6);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #1a3a8f, #2563eb);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
+}
+
+.btn-warning {
+    background: linear-gradient(135deg, #92400e, #d97706);
+    border: none;
+    color: white;
+}
+
+.btn-warning:hover {
+    background: linear-gradient(135deg, #78350f, #b45309);
+    color: white;
+    box-shadow: 0 4px 12px rgba(217, 119, 6, 0.35);
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #7f1d1d, #dc2626);
+    border: none;
+}
+
+.btn-danger:hover {
+    background: linear-gradient(135deg, #6b1c1c, #b91c1c);
+    box-shadow: 0 4px 12px rgba(220, 38, 38, 0.35);
+}
+
+/* === INPUT GROUP === */
+.input-group-text {
+    background-color: #f8fafc;
+    border-color: #d1d5db;
+    color: #6b7280;
+}
+
+.form-control:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+/* === BADGES === */
+.badge.bg-secondary {
+    background-color: #e2e8f0 !important;
+    color: #475569;
+    font-weight: 600;
+    font-size: 0.78rem;
+    padding: 0.35em 0.65em;
+}
+
+/* === BREADCRUMB === */
+.breadcrumb {
+    font-size: 0.875rem;
+}
+
+.breadcrumb-item a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+/* === FOOTER === */
+footer {
+    border-top: 1px solid #e5e7eb;
+    background-color: #f9fafb;
+}
+
+/* === DELETE ICON WRAPPER === */
+.delete-icon-wrapper {
+    width: 80px;
+    height: 80px;
+    background-color: #fef2f2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* === ALERT STYLES === */
+.alert {
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 576px) {
+    .data-table {
+        font-size: 0.8rem;
+    }
+
+    .btn-sm {
+        padding: 0.25rem 0.45rem;
+        font-size: 0.75rem;
+    }
+}
