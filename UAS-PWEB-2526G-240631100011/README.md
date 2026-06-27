@@ -155,7 +155,7 @@ UAS-PWEB-2526G-240631100011/
 
 ## Pernyataan Penggunaan GenAI
 
-Proyek ini dikembangkan dengan bantuan **Claude AI (Anthropic)** sebagai alat bantu penulisan kode dan struktur aplikasi.
+Proyek ini dikembangkan dengan bantuan cloude AI sebagai alat bantu dalam penyusunan kode, perbaikan error, dan dokumentasi. Seluruh implementasi, pengujian, dan penyesuaian dilakukan oleh penulis.
 
 ---
 
