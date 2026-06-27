@@ -4,7 +4,7 @@
 
 ---
 
-## 👤 Identitas Mahasiswa
+## Identitas Mahasiswa
 
 | Field | Detail |
 |-------|--------|
@@ -15,22 +15,22 @@
 
 ---
 
-## 📌 Deskripsi Aplikasi
+## Deskripsi Aplikasi
 
 **SiPuBuku** adalah aplikasi web sederhana untuk mengelola data koleksi buku perpustakaan. Aplikasi ini memungkinkan pengguna untuk menambah, melihat, mengedit, dan menghapus data buku secara mudah dan efisien.
 
 **Fitur utama:**
-- 🏠 Beranda dengan statistik koleksi buku
-- 📋 Daftar buku dengan fitur pencarian
-- ➕ Tambah buku baru
-- ✏️ Edit data buku
-- 🗑️ Hapus buku dengan konfirmasi
-- 🔍 Pencarian berdasarkan judul, pengarang, atau genre
-- 🏷️ Indikator stok buku (tersedia / sedikit / habis)
+- Beranda dengan statistik koleksi buku
+- Daftar buku dengan fitur pencarian
+- Tambah buku baru
+- Edit data buku
+- Hapus buku dengan konfirmasi
+- Pencarian berdasarkan judul, pengarang, atau genre
+- Indikator stok buku (tersedia / sedikit / habis)
 
 ---
 
-## 🗃️ Struktur Database
+## Struktur Database
 
 **Database:** `db_buku`
 
@@ -50,7 +50,7 @@
 
 ---
 
-## 📁 Struktur File
+## Struktur File
 
 ```
 UAS-PWEB-2526G-240631100011/
@@ -76,7 +76,7 @@ UAS-PWEB-2526G-240631100011/
 
 ---
 
-## 🚀 Cara Menjalankan Aplikasi
+## Cara Menjalankan Aplikasi
 
 ### Prasyarat
 - PHP 7.4 atau lebih baru
@@ -118,7 +118,7 @@ UAS-PWEB-2526G-240631100011/
 
 ---
 
-## ✅ Checklist Spesifikasi
+## Checklist Spesifikasi
 
 ### HTML
 - [x] Struktur HTML5 yang benar (`<!DOCTYPE html>`, semantic tags)
@@ -153,19 +153,19 @@ UAS-PWEB-2526G-240631100011/
 
 ---
 
-## 🤖 Pernyataan Penggunaan GenAI
+## Pernyataan Penggunaan GenAI
 
 Proyek ini dikembangkan dengan bantuan **Claude AI (Anthropic)** sebagai alat bantu penulisan kode dan struktur aplikasi.
 
 ---
 
-## 📸 Screenshot Aplikasi
+## Screenshot Aplikasi
 
 > *(Tambahkan screenshot halaman Beranda, Daftar, Tambah, Edit, dan Hapus di sini)*
 
 ---
 
-## 🔗 Link
+## Link
 
-- **Repository GitHub:** [UAS-PWEB-2526G-240631100011](https://github.com/beyhaQi/UAS-PWEB-2526G-240631100011)
-- **Video YouTube:** *(link video penjelasan)*
+- **Repository GitHub:** (https://github.com/mafifeffindi/2526GnWeb4A/tree/main/UAS-PWEB-2526G-240631100011)
+
