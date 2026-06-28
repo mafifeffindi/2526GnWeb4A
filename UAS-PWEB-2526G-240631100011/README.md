@@ -78,10 +78,8 @@ UAS-PWEB-2526G-240631100011/
 
 ## Cara Menjalankan Aplikasi
 
-### Prasyarat
-- PHP 7.4 atau lebih baru
-- MySQL 5.7 atau lebih baru
-- XAMPP / Laragon / WAMP (disarankan)
+### cara menjalankan aplikasi
+Pastikan aplikasi XAMPP Control Panel sudah terinstal dan berjalan di komputer/laptop. a. Aktifkan modul Apache dan MySQL pada XAMPP Control Panel dengan mengeklik tombol Start. b. Ekstrak atau letakkan folder project db_mahasiswa ke dalam direktori web server lokal di: C:\xampp\htdocs
 
 ### Langkah-langkah
 
