@@ -1,0 +1,283 @@
+[Mon Jun 29 00:32:16 2026] PHP 8.2.12 Development Server (http://127.0.0.1:8000) started
+[Mon Jun 29 00:33:02 2026] 127.0.0.1:54213 Accepted
+[Mon Jun 29 00:33:04 2026] 127.0.0.1:54213 [200]: GET /
+[Mon Jun 29 00:33:04 2026] 127.0.0.1:54213 Closing
+[Mon Jun 29 00:34:11 2026] 127.0.0.1:54158 Accepted
+[Mon Jun 29 00:34:11 2026] 127.0.0.1:59156 Accepted
+[Mon Jun 29 00:34:11 2026] 127.0.0.1:59156 [200]: GET /
+[Mon Jun 29 00:34:11 2026] 127.0.0.1:59156 Closing
+[Mon Jun 29 00:34:11 2026] 127.0.0.1:54158 [200]: GET /css/style.css
+[Mon Jun 29 00:34:11 2026] 127.0.0.1:54158 Closing
+[Mon Jun 29 00:34:12 2026] 127.0.0.1:52119 Accepted
+[Mon Jun 29 00:34:12 2026] 127.0.0.1:52119 [404]: GET /favicon.ico - No such file or directory
+[Mon Jun 29 00:34:12 2026] 127.0.0.1:52119 Closing
+[Mon Jun 29 00:34:39 2026] 127.0.0.1:50552 Accepted
+[Mon Jun 29 00:34:39 2026] 127.0.0.1:60903 Accepted
+[Mon Jun 29 00:34:41 2026] 127.0.0.1:50552 [200]: GET /tambah.php
+[Mon Jun 29 00:34:41 2026] 127.0.0.1:50552 Closing
+[Mon Jun 29 00:34:42 2026] 127.0.0.1:60903 [200]: GET /css/style.css
+[Mon Jun 29 00:34:42 2026] 127.0.0.1:60903 Closing
+[Mon Jun 29 00:34:49 2026] 127.0.0.1:63653 Accepted
+[Mon Jun 29 00:34:49 2026] 127.0.0.1:57420 Accepted
+[Mon Jun 29 00:34:49 2026] 127.0.0.1:63653 [200]: GET /daftar.php
+[Mon Jun 29 00:34:49 2026] 127.0.0.1:63653 Closing
+[Mon Jun 29 00:34:49 2026] 127.0.0.1:57420 [200]: GET /css/style.css
+[Mon Jun 29 00:34:49 2026] 127.0.0.1:57420 Closing
+[Mon Jun 29 00:35:22 2026] 127.0.0.1:64650 Accepted
+[Mon Jun 29 00:35:22 2026] 127.0.0.1:55689 Accepted
+[Mon Jun 29 00:35:22 2026] 127.0.0.1:64650 [200]: GET /index.php
+[Mon Jun 29 00:35:22 2026] 127.0.0.1:64650 Closing
+[Mon Jun 29 00:35:22 2026] 127.0.0.1:55689 [200]: GET /css/style.css
+[Mon Jun 29 00:35:22 2026] 127.0.0.1:55689 Closing
+[Mon Jun 29 00:36:09 2026] 127.0.0.1:65268 Accepted
+[Mon Jun 29 00:36:09 2026] 127.0.0.1:49382 Accepted
+[Mon Jun 29 00:36:09 2026] 127.0.0.1:65268 [200]: GET /tambah.php
+[Mon Jun 29 00:36:09 2026] 127.0.0.1:65268 Closing
+[Mon Jun 29 00:36:09 2026] 127.0.0.1:49382 [200]: GET /css/style.css
+[Mon Jun 29 00:36:09 2026] 127.0.0.1:49382 Closing
+[Mon Jun 29 00:39:17 2026] 127.0.0.1:60812 Accepted
+[Mon Jun 29 00:39:17 2026] 127.0.0.1:60812 [200]: GET /tambah.php
+[Mon Jun 29 00:39:17 2026] 127.0.0.1:60812 Closing
+[Mon Jun 29 00:39:17 2026] 127.0.0.1:63252 Accepted
+[Mon Jun 29 00:39:17 2026] 127.0.0.1:63252 [200]: GET /css/style.css
+[Mon Jun 29 00:39:17 2026] 127.0.0.1:63252 Closing
+[Mon Jun 29 00:49:20 2026] 127.0.0.1:60073 Accepted
+[Mon Jun 29 00:49:20 2026] 127.0.0.1:60073 [200]: GET /tambah.php
+[Mon Jun 29 00:49:20 2026] 127.0.0.1:60073 Closing
+[Mon Jun 29 00:49:54 2026] 127.0.0.1:62844 Accepted
+[Mon Jun 29 00:49:54 2026] 127.0.0.1:62844 [200]: GET /daftar.php
+[Mon Jun 29 00:49:54 2026] 127.0.0.1:62844 Closing
+[Mon Jun 29 00:49:56 2026] 127.0.0.1:53503 Accepted
+[Mon Jun 29 00:49:56 2026] 127.0.0.1:53503 [200]: GET /edit.php?id=1
+[Mon Jun 29 00:49:56 2026] 127.0.0.1:53503 Closing
+[Mon Jun 29 00:53:20 2026] 127.0.0.1:63458 Accepted
+[Mon Jun 29 00:53:20 2026] 127.0.0.1:64466 Accepted
+[Mon Jun 29 00:53:20 2026] 127.0.0.1:63458 [200]: GET /tambah.php
+[Mon Jun 29 00:53:21 2026] 127.0.0.1:63458 Closing
+[Mon Jun 29 00:53:21 2026] 127.0.0.1:64466 [200]: GET /css/style.css
+[Mon Jun 29 00:53:21 2026] 127.0.0.1:64466 Closing
+[Mon Jun 29 00:53:57 2026] 127.0.0.1:49411 Accepted
+[Mon Jun 29 00:53:57 2026] 127.0.0.1:49411 [200]: GET /daftar.php
+[Mon Jun 29 00:53:57 2026] 127.0.0.1:49411 Closing
+[Mon Jun 29 00:53:57 2026] 127.0.0.1:54633 Accepted
+[Mon Jun 29 00:53:57 2026] 127.0.0.1:54633 [200]: GET /css/style.css
+[Mon Jun 29 00:53:57 2026] 127.0.0.1:54633 Closing
+[Mon Jun 29 00:54:03 2026] 127.0.0.1:57200 Accepted
+[Mon Jun 29 00:54:03 2026] 127.0.0.1:51670 Accepted
+[Mon Jun 29 00:54:03 2026] 127.0.0.1:57200 [200]: GET /edit.php?id=5
+[Mon Jun 29 00:54:03 2026] 127.0.0.1:57200 Closing
+[Mon Jun 29 00:54:03 2026] 127.0.0.1:51670 [200]: GET /css/style.css
+[Mon Jun 29 00:54:03 2026] 127.0.0.1:51670 Closing
+[Mon Jun 29 00:55:04 2026] 127.0.0.1:53439 Accepted
+[Mon Jun 29 00:55:04 2026] 127.0.0.1:53439 [200]: GET /daftar.php
+[Mon Jun 29 00:55:04 2026] 127.0.0.1:53439 Closing
+[Mon Jun 29 00:55:04 2026] 127.0.0.1:65466 Accepted
+[Mon Jun 29 00:55:04 2026] 127.0.0.1:65466 [200]: GET /css/style.css
+[Mon Jun 29 00:55:04 2026] 127.0.0.1:65466 Closing
+[Mon Jun 29 00:55:13 2026] 127.0.0.1:49779 Accepted
+[Mon Jun 29 00:55:13 2026] 127.0.0.1:49779 [200]: GET /edit.php?id=1
+[Mon Jun 29 00:55:13 2026] 127.0.0.1:49779 Closing
+[Mon Jun 29 00:55:13 2026] 127.0.0.1:63287 Accepted
+[Mon Jun 29 00:55:13 2026] 127.0.0.1:63287 [200]: GET /css/style.css
+[Mon Jun 29 00:55:13 2026] 127.0.0.1:63287 Closing
+[Mon Jun 29 00:55:21 2026] 127.0.0.1:58936 Accepted
+[Mon Jun 29 00:55:21 2026] 127.0.0.1:61055 Accepted
+[Mon Jun 29 00:55:21 2026] 127.0.0.1:58936 [200]: GET /hapus.php?id=1
+[Mon Jun 29 00:55:21 2026] 127.0.0.1:58936 Closing
+[Mon Jun 29 00:55:21 2026] 127.0.0.1:61055 [200]: GET /css/style.css
+[Mon Jun 29 00:55:21 2026] 127.0.0.1:61055 Closing
+[Mon Jun 29 00:55:23 2026] 127.0.0.1:64035 Accepted
+[Mon Jun 29 00:55:23 2026] 127.0.0.1:54225 Accepted
+[Mon Jun 29 00:55:23 2026] 127.0.0.1:64035 [200]: GET /daftar.php
+[Mon Jun 29 00:55:23 2026] 127.0.0.1:64035 Closing
+[Mon Jun 29 00:55:23 2026] 127.0.0.1:54225 [200]: GET /css/style.css
+[Mon Jun 29 00:55:23 2026] 127.0.0.1:54225 Closing
+[Mon Jun 29 00:55:33 2026] 127.0.0.1:61922 Accepted
+[Mon Jun 29 00:55:33 2026] 127.0.0.1:61196 Accepted
+[Mon Jun 29 00:55:34 2026] 127.0.0.1:61922 [200]: GET /daftar.php?q=&tipe=&bulan=
+[Mon Jun 29 00:55:34 2026] 127.0.0.1:61922 Closing
+[Mon Jun 29 00:55:35 2026] 127.0.0.1:64190 Accepted
+[Mon Jun 29 00:55:35 2026] 127.0.0.1:61196 [200]: GET /tambah.php
+[Mon Jun 29 00:55:35 2026] 127.0.0.1:61196 Closing
+[Mon Jun 29 00:55:35 2026] 127.0.0.1:64190 [200]: GET /css/style.css
+[Mon Jun 29 00:55:35 2026] 127.0.0.1:64190 Closing
+[Mon Jun 29 00:56:10 2026] 127.0.0.1:50006 Accepted
+[Mon Jun 29 00:56:10 2026] 127.0.0.1:50887 Accepted
+[Mon Jun 29 00:56:13 2026] 127.0.0.1:50006 [302]: POST /tambah.php
+[Mon Jun 29 00:56:13 2026] 127.0.0.1:50006 Closing
+[Mon Jun 29 00:56:14 2026] 127.0.0.1:61700 Accepted
+[Mon Jun 29 00:56:15 2026] 127.0.0.1:50887 [302]: POST /tambah.php
+[Mon Jun 29 00:56:15 2026] 127.0.0.1:50887 Closing
+[Mon Jun 29 00:56:15 2026] 127.0.0.1:49648 Accepted
+[Mon Jun 29 00:56:16 2026] 127.0.0.1:61700 [302]: POST /tambah.php
+[Mon Jun 29 00:56:16 2026] 127.0.0.1:61700 Closing
+[Mon Jun 29 00:56:16 2026] 127.0.0.1:49648 [200]: GET /index.php
+[Mon Jun 29 00:56:16 2026] 127.0.0.1:49648 Closing
+[Mon Jun 29 00:56:17 2026] 127.0.0.1:61434 Accepted
+[Mon Jun 29 00:56:17 2026] 127.0.0.1:61434 [200]: GET /css/style.css
+[Mon Jun 29 00:56:17 2026] 127.0.0.1:61434 Closing
+[Mon Jun 29 00:56:22 2026] 127.0.0.1:52157 Accepted
+[Mon Jun 29 00:56:23 2026] 127.0.0.1:59976 Accepted
+[Mon Jun 29 00:56:24 2026] 127.0.0.1:52157 [200]: GET /daftar.php
+[Mon Jun 29 00:56:24 2026] 127.0.0.1:52157 Closing
+[Mon Jun 29 00:56:24 2026] 127.0.0.1:59976 [200]: GET /css/style.css
+[Mon Jun 29 00:56:25 2026] 127.0.0.1:59976 Closing
+[Mon Jun 29 00:56:41 2026] 127.0.0.1:58680 Accepted
+[Mon Jun 29 00:56:42 2026] 127.0.0.1:49504 Accepted
+[Mon Jun 29 00:56:44 2026] 127.0.0.1:58680 [200]: GET /daftar.php?page=2
+[Mon Jun 29 00:56:44 2026] 127.0.0.1:58680 Closing
+[Mon Jun 29 00:56:45 2026] 127.0.0.1:49504 [200]: GET /css/style.css
+[Mon Jun 29 00:56:45 2026] 127.0.0.1:49504 Closing
+[Mon Jun 29 00:56:50 2026] 127.0.0.1:61893 Accepted
+[Mon Jun 29 00:56:51 2026] 127.0.0.1:56664 Accepted
+[Mon Jun 29 00:56:51 2026] 127.0.0.1:61893 [200]: GET /daftar.php?page=1
+[Mon Jun 29 00:56:52 2026] 127.0.0.1:61893 Closing
+[Mon Jun 29 00:56:53 2026] 127.0.0.1:56664 [200]: GET /css/style.css
+[Mon Jun 29 00:56:53 2026] 127.0.0.1:56664 Closing
+[Mon Jun 29 00:56:55 2026] 127.0.0.1:62824 Accepted
+[Mon Jun 29 00:56:55 2026] 127.0.0.1:49482 Accepted
+[Mon Jun 29 00:56:56 2026] 127.0.0.1:62824 [200]: GET /hapus.php?id=13
+[Mon Jun 29 00:56:56 2026] 127.0.0.1:62824 Closing
+[Mon Jun 29 00:56:56 2026] 127.0.0.1:49482 [200]: GET /css/style.css
+[Mon Jun 29 00:56:56 2026] 127.0.0.1:49482 Closing
+[Mon Jun 29 00:56:59 2026] 127.0.0.1:62047 Accepted
+[Mon Jun 29 00:57:00 2026] 127.0.0.1:61348 Accepted
+[Mon Jun 29 00:57:01 2026] 127.0.0.1:62047 [302]: POST /hapus.php?id=13
+[Mon Jun 29 00:57:01 2026] 127.0.0.1:62047 Closing
+[Mon Jun 29 00:57:02 2026] 127.0.0.1:61348 [200]: GET /daftar.php
+[Mon Jun 29 00:57:02 2026] 127.0.0.1:61348 Closing
+[Mon Jun 29 00:57:02 2026] 127.0.0.1:56027 Accepted
+[Mon Jun 29 00:57:03 2026] 127.0.0.1:56027 [200]: GET /css/style.css
+[Mon Jun 29 00:57:03 2026] 127.0.0.1:56027 Closing
+[Mon Jun 29 00:57:06 2026] 127.0.0.1:63364 Accepted
+[Mon Jun 29 00:57:06 2026] 127.0.0.1:59411 Accepted
+[Mon Jun 29 00:57:06 2026] 127.0.0.1:63364 [200]: GET /hapus.php?id=12
+[Mon Jun 29 00:57:06 2026] 127.0.0.1:63364 Closing
+[Mon Jun 29 00:57:06 2026] 127.0.0.1:59411 [200]: GET /css/style.css
+[Mon Jun 29 00:57:06 2026] 127.0.0.1:59411 Closing
+[Mon Jun 29 00:57:08 2026] 127.0.0.1:58613 Accepted
+[Mon Jun 29 00:57:08 2026] 127.0.0.1:61194 Accepted
+[Mon Jun 29 00:57:11 2026] 127.0.0.1:58613 [302]: POST /hapus.php?id=12
+[Mon Jun 29 00:57:11 2026] 127.0.0.1:58613 Closing
+[Mon Jun 29 00:57:11 2026] 127.0.0.1:61194 [200]: GET /daftar.php
+[Mon Jun 29 00:57:11 2026] 127.0.0.1:61194 Closing
+[Mon Jun 29 00:57:11 2026] 127.0.0.1:59546 Accepted
+[Mon Jun 29 00:57:11 2026] 127.0.0.1:59546 [200]: GET /css/style.css
+[Mon Jun 29 00:57:11 2026] 127.0.0.1:59546 Closing
+[Mon Jun 29 00:57:21 2026] 127.0.0.1:57445 Accepted
+[Mon Jun 29 00:57:21 2026] 127.0.0.1:61764 Accepted
+[Mon Jun 29 00:57:21 2026] 127.0.0.1:57445 [200]: GET /index.php
+[Mon Jun 29 00:57:21 2026] 127.0.0.1:57445 Closing
+[Mon Jun 29 00:57:21 2026] 127.0.0.1:61764 [200]: GET /css/style.css
+[Mon Jun 29 00:57:21 2026] 127.0.0.1:61764 Closing
+[Mon Jun 29 00:59:05 2026] 127.0.0.1:52742 Accepted
+[Mon Jun 29 00:59:05 2026] 127.0.0.1:53427 Accepted
+[Mon Jun 29 00:59:05 2026] 127.0.0.1:53427 [200]: GET /index.php
+[Mon Jun 29 00:59:05 2026] 127.0.0.1:53427 Closing
+[Mon Jun 29 00:59:05 2026] 127.0.0.1:52742 [200]: GET /css/style.css
+[Mon Jun 29 00:59:05 2026] 127.0.0.1:52742 Closing
+[Mon Jun 29 00:59:07 2026] 127.0.0.1:62430 Accepted
+[Mon Jun 29 00:59:07 2026] 127.0.0.1:54222 Accepted
+[Mon Jun 29 00:59:07 2026] 127.0.0.1:62430 [200]: GET /tambah.php
+[Mon Jun 29 00:59:07 2026] 127.0.0.1:62430 Closing
+[Mon Jun 29 00:59:07 2026] 127.0.0.1:54222 [200]: GET /css/style.css
+[Mon Jun 29 00:59:07 2026] 127.0.0.1:54222 Closing
+[Mon Jun 29 00:59:25 2026] 127.0.0.1:52111 Accepted
+[Mon Jun 29 00:59:25 2026] 127.0.0.1:61868 Accepted
+[Mon Jun 29 00:59:25 2026] 127.0.0.1:61868 [302]: POST /tambah.php
+[Mon Jun 29 00:59:25 2026] 127.0.0.1:61868 Closing
+[Mon Jun 29 00:59:25 2026] 127.0.0.1:52111 [200]: GET /index.php
+[Mon Jun 29 00:59:25 2026] 127.0.0.1:52111 Closing
+[Mon Jun 29 00:59:25 2026] 127.0.0.1:52440 Accepted
+[Mon Jun 29 00:59:25 2026] 127.0.0.1:52440 [200]: GET /css/style.css
+[Mon Jun 29 00:59:25 2026] 127.0.0.1:52440 Closing
+[Mon Jun 29 00:59:27 2026] 127.0.0.1:62283 Accepted
+[Mon Jun 29 00:59:27 2026] 127.0.0.1:61949 Accepted
+[Mon Jun 29 00:59:27 2026] 127.0.0.1:62283 [200]: GET /daftar.php
+[Mon Jun 29 00:59:27 2026] 127.0.0.1:62283 Closing
+[Mon Jun 29 00:59:27 2026] 127.0.0.1:61949 [200]: GET /css/style.css
+[Mon Jun 29 00:59:27 2026] 127.0.0.1:61949 Closing
+[Mon Jun 29 00:59:30 2026] 127.0.0.1:61877 Accepted
+[Mon Jun 29 00:59:30 2026] 127.0.0.1:53007 Accepted
+[Mon Jun 29 00:59:30 2026] 127.0.0.1:61877 [200]: GET /hapus.php?id=14
+[Mon Jun 29 00:59:30 2026] 127.0.0.1:61877 Closing
+[Mon Jun 29 00:59:31 2026] 127.0.0.1:53007 [200]: GET /css/style.css
+[Mon Jun 29 00:59:31 2026] 127.0.0.1:53007 Closing
+[Mon Jun 29 00:59:32 2026] 127.0.0.1:61014 Accepted
+[Mon Jun 29 00:59:32 2026] 127.0.0.1:52565 Accepted
+[Mon Jun 29 00:59:32 2026] 127.0.0.1:61014 [302]: POST /hapus.php?id=14
+[Mon Jun 29 00:59:32 2026] 127.0.0.1:61014 Closing
+[Mon Jun 29 00:59:32 2026] 127.0.0.1:52565 [200]: GET /daftar.php
+[Mon Jun 29 00:59:32 2026] 127.0.0.1:52565 Closing
+[Mon Jun 29 00:59:32 2026] 127.0.0.1:64237 Accepted
+[Mon Jun 29 00:59:32 2026] 127.0.0.1:64237 [200]: GET /css/style.css
+[Mon Jun 29 00:59:32 2026] 127.0.0.1:64237 Closing
+[Mon Jun 29 00:59:34 2026] 127.0.0.1:55608 Accepted
+[Mon Jun 29 00:59:34 2026] 127.0.0.1:63776 Accepted
+[Mon Jun 29 00:59:34 2026] 127.0.0.1:55608 [200]: GET /hapus.php?id=11
+[Mon Jun 29 00:59:34 2026] 127.0.0.1:55608 Closing
+[Mon Jun 29 00:59:34 2026] 127.0.0.1:63776 [200]: GET /css/style.css
+[Mon Jun 29 00:59:34 2026] 127.0.0.1:63776 Closing
+[Mon Jun 29 00:59:35 2026] 127.0.0.1:57829 Accepted
+[Mon Jun 29 00:59:35 2026] 127.0.0.1:58141 Accepted
+[Mon Jun 29 00:59:35 2026] 127.0.0.1:57829 [302]: POST /hapus.php?id=11
+[Mon Jun 29 00:59:35 2026] 127.0.0.1:57829 Closing
+[Mon Jun 29 00:59:35 2026] 127.0.0.1:58141 [200]: GET /daftar.php
+[Mon Jun 29 00:59:35 2026] 127.0.0.1:58141 Closing
+[Mon Jun 29 00:59:35 2026] 127.0.0.1:56201 Accepted
+[Mon Jun 29 00:59:35 2026] 127.0.0.1:56201 [200]: GET /css/style.css
+[Mon Jun 29 00:59:35 2026] 127.0.0.1:56201 Closing
+[Mon Jun 29 01:04:58 2026] 127.0.0.1:60276 Accepted
+[Mon Jun 29 01:04:58 2026] 127.0.0.1:60856 Accepted
+[Mon Jun 29 01:04:58 2026] 127.0.0.1:60276 [200]: GET /index.php
+[Mon Jun 29 01:04:58 2026] 127.0.0.1:60276 Closing
+[Mon Jun 29 01:04:59 2026] 127.0.0.1:60856 [200]: GET /css/style.css
+[Mon Jun 29 01:04:59 2026] 127.0.0.1:60856 Closing
+[Mon Jun 29 01:06:41 2026] 127.0.0.1:54077 Accepted
+[Mon Jun 29 01:06:42 2026] 127.0.0.1:50206 Accepted
+[Mon Jun 29 01:06:43 2026] 127.0.0.1:54077 [200]: GET /tambah.php
+[Mon Jun 29 01:06:44 2026] 127.0.0.1:54077 Closing
+[Mon Jun 29 01:06:45 2026] 127.0.0.1:50206 [200]: GET /css/style.css
+[Mon Jun 29 01:06:47 2026] 127.0.0.1:50206 Closing
+[Mon Jun 29 01:07:51 2026] 127.0.0.1:64980 Accepted
+[Mon Jun 29 01:07:51 2026] 127.0.0.1:56015 Accepted
+[Mon Jun 29 01:07:51 2026] 127.0.0.1:64980 [302]: POST /tambah.php
+[Mon Jun 29 01:07:51 2026] 127.0.0.1:64980 Closing
+[Mon Jun 29 01:07:51 2026] 127.0.0.1:56015 [200]: GET /index.php
+[Mon Jun 29 01:07:51 2026] 127.0.0.1:56015 Closing
+[Mon Jun 29 01:07:51 2026] 127.0.0.1:50200 Accepted
+[Mon Jun 29 01:07:51 2026] 127.0.0.1:50200 [200]: GET /css/style.css
+[Mon Jun 29 01:07:51 2026] 127.0.0.1:50200 Closing
+[Mon Jun 29 01:08:14 2026] 127.0.0.1:58905 Accepted
+[Mon Jun 29 01:08:15 2026] 127.0.0.1:58905 [200]: GET /daftar.php
+[Mon Jun 29 01:08:15 2026] 127.0.0.1:58905 Closing
+[Mon Jun 29 01:08:15 2026] 127.0.0.1:65189 Accepted
+[Mon Jun 29 01:08:15 2026] 127.0.0.1:65189 [200]: GET /css/style.css
+[Mon Jun 29 01:08:15 2026] 127.0.0.1:65189 Closing
+[Mon Jun 29 01:08:19 2026] 127.0.0.1:60546 Accepted
+[Mon Jun 29 01:08:19 2026] 127.0.0.1:50881 Accepted
+[Mon Jun 29 01:08:19 2026] 127.0.0.1:60546 [200]: GET /edit.php?id=15
+[Mon Jun 29 01:08:19 2026] 127.0.0.1:60546 Closing
+[Mon Jun 29 01:08:19 2026] 127.0.0.1:50881 [200]: GET /css/style.css
+[Mon Jun 29 01:08:19 2026] 127.0.0.1:50881 Closing
+[Mon Jun 29 01:08:41 2026] 127.0.0.1:49179 Accepted
+[Mon Jun 29 01:08:41 2026] 127.0.0.1:58759 Accepted
+[Mon Jun 29 01:08:41 2026] 127.0.0.1:49179 [200]: GET /daftar.php
+[Mon Jun 29 01:08:41 2026] 127.0.0.1:49179 Closing
+[Mon Jun 29 01:08:41 2026] 127.0.0.1:58759 [200]: GET /css/style.css
+[Mon Jun 29 01:08:41 2026] 127.0.0.1:58759 Closing
+[Mon Jun 29 01:08:44 2026] 127.0.0.1:61593 Accepted
+[Mon Jun 29 01:08:44 2026] 127.0.0.1:61593 [200]: GET /hapus.php?id=15
+[Mon Jun 29 01:08:44 2026] 127.0.0.1:61593 Closing
+[Mon Jun 29 01:08:44 2026] 127.0.0.1:60504 Accepted
+[Mon Jun 29 01:08:44 2026] 127.0.0.1:60504 [200]: GET /css/style.css
+[Mon Jun 29 01:08:44 2026] 127.0.0.1:60504 Closing
+[Mon Jun 29 01:08:46 2026] 127.0.0.1:61869 Accepted
+[Mon Jun 29 01:08:46 2026] 127.0.0.1:65268 Accepted
+[Mon Jun 29 01:08:46 2026] 127.0.0.1:65268 [302]: POST /hapus.php?id=15
+[Mon Jun 29 01:08:46 2026] 127.0.0.1:65268 Closing
+[Mon Jun 29 01:08:46 2026] 127.0.0.1:61869 [200]: GET /daftar.php
+[Mon Jun 29 01:08:46 2026] 127.0.0.1:61869 Closing
+[Mon Jun 29 01:08:46 2026] 127.0.0.1:61288 Accepted
+[Mon Jun 29 01:08:46 2026] 127.0.0.1:61288 [200]: GET /css/style.css
+[Mon Jun 29 01:08:46 2026] 127.0.0.1:61288 Closing
