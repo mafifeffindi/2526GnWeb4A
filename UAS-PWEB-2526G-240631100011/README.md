@@ -1,4 +1,4 @@
-# 📚 SiPuBuku — Sistem Pendataan Buku
+# SiPuBuku — Sistem Pendataan Buku
 
 > UAS Pemrograman Web — Project Based Assessment
 
@@ -161,7 +161,7 @@ Proyek ini dikembangkan dengan bantuan cloude AI sebagai alat bantu dalam penyus
 
 ## Screenshot Aplikasi
 
-> *(Tambahkan screenshot halaman Beranda, Daftar, Tambah, Edit, dan Hapus di sini)*
+
 
 ---
 
