@@ -160,6 +160,11 @@ Proyek ini dikembangkan dengan bantuan cloude AI sebagai alat bantu dalam penyus
 ---
 
 ## Screenshot Aplikasi
+<img width="1901" height="967" alt="Screenshot 2026-06-27 224003" src="https://github.com/user-attachments/assets/3523890a-7f79-4829-a266-881b6792e9e4" />
+<img width="1913" height="972" alt="Screenshot 2026-06-27 224054" src="https://github.com/user-attachments/assets/79b6eddb-de23-4cec-9478-e621aad19f4a" />
+<img width="1897" height="967" alt="Screenshot 2026-06-27 224218" src="https://github.com/user-attachments/assets/0c4f4ea1-2454-426b-9b00-cf4cf968d06a" />
+
+
 
 
 
